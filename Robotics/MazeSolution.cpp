@@ -10,7 +10,6 @@ W = [i-1][j]; maju
 */
 
 int n,m;
-
 int main(){
 	cin >> n >> m; //reading 2 input value for array/maze size
 	char grid[n][m]; //maze
