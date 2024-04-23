@@ -2,6 +2,7 @@
 using namespace std;
 #define pb push_back
 /* 
+---- RIVAL ROBOTICS INTERNSHIP FIRST TASK ----
 PENJELASAN :
 1. grid maze disimpan di vector 2D, kenapa vektor? biar lebih mudah saat passing ke function 
 karena size n m tidak pasti (tergantung input)
