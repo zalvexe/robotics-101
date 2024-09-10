@@ -1,0 +1,8 @@
+prefix=/home/zalv/turtle_ws/devel
+
+Name: draw_turtle
+Description: Description of draw_turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

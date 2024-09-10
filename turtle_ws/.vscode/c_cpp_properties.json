@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zalv/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/zalv/catkin_ws/src/STM32_test/include/**",
+        "/home/zalv/catkin_ws/src/beginner_tutorials/include/**",
+        "/home/zalv/catkin_ws/src/catkin_publish_subs/include/**",
+        "/home/zalv/catkin_ws/src/code_another_stuff/include/**",
+        "/home/zalv/catkin_ws/src/com/include/**",
+        "/home/zalv/catkin_ws/src/custom_msgs/include/**",
+        "/home/zalv/turtle_ws/src/draw_turtle/include/**",
+        "/home/zalv/catkin_ws/src/input_output/include/**",
+        "/home/zalv/catkin_ws/src/publish_subs/include/**",
+        "/home/zalv/catkin_ws/src/publish_subscribe/include/**",
+        "/home/zalv/catkin_ws/src/ros_essentials_cpp/include/**",
+        "/home/zalv/catkin_ws/src/server_client/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

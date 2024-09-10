@@ -1,0 +1,2 @@
+draw_turtle
+-DCATKIN_DEVEL_PREFIX=/home/zalv/turtle_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zalv/turtle_ws/install -G Unix Makefiles
