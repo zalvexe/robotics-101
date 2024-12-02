@@ -1,0 +1,6 @@
+source;share/urg_node2/hook/cmake_prefix_path.ps1
+source;share/urg_node2/hook/cmake_prefix_path.dsv
+source;share/urg_node2/hook/cmake_prefix_path.sh
+source;share/urg_node2/hook/ld_library_path_lib.ps1
+source;share/urg_node2/hook/ld_library_path_lib.dsv
+source;share/urg_node2/hook/ld_library_path_lib.sh

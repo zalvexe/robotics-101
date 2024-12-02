@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target icp_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/icp_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable icp_node[0m
+[100%] Built target icp_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/lib/icp_node/icp_node
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/ament_index/resource_index/package_run_dependencies/icp_node
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/ament_index/resource_index/parent_prefix_path/icp_node
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/environment/ament_prefix_path.sh
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/environment/path.sh
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/environment/path.dsv
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/local_setup.bash
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/local_setup.sh
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/local_setup.zsh
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/local_setup.dsv
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.dsv
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/ament_index/resource_index/packages/icp_node
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/cmake/icp_nodeConfig.cmake
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/cmake/icp_nodeConfig-version.cmake
+-- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.xml
