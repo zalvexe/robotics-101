@@ -11,6 +11,7 @@
 /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/local_setup.dsv
 /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.dsv
 /home/zalv/hokuyo3_ws/install/icp_node/share/ament_index/resource_index/packages/icp_node
+/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/cmake/ament_cmake_export_include_directories-extras.cmake
 /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/cmake/icp_nodeConfig.cmake
 /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/cmake/icp_nodeConfig-version.cmake
 /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.xml

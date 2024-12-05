@@ -36,7 +36,7 @@ endif()
 set(icp_node_FOUND_AMENT_PACKAGE TRUE)
 
 # include all config extra files
-set(_extras "")
+set(_extras "ament_cmake_export_include_directories-extras.cmake")
 foreach(_extra ${_extras})
   include("${icp_node_DIR}/${_extra}")
 endforeach()

@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': /usr/bin/cmake /home/zalv/hokuyo3_ws/src/icp_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/icp_node
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.210s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.280s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.280s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.284s] -- Detecting CXX compiler ABI info
+[0.353s] -- Detecting CXX compiler ABI info - done
+[0.360s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.360s] -- Detecting CXX compile features
+[0.361s] -- Detecting CXX compile features - done
+[0.370s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[0.370s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.370s]   has asked CMake to find a package configuration file provided by
+[0.370s]   "ament_cmake", but CMake did not find one.
+[0.370s] 
+[0.370s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.370s]   any of the following names:
+[0.370s] 
+[0.370s]     ament_cmakeConfig.cmake
+[0.370s]     ament_cmake-config.cmake
+[0.370s] 
+[0.370s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.370s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.370s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.370s]   has been installed.
+[0.371s] 
+[0.371s] [0m
+[0.371s] -- Configuring incomplete, errors occurred!
+[0.371s] See also "/home/zalv/hokuyo3_ws/build/icp_node/CMakeFiles/CMakeOutput.log".
+[0.375s] Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '1': /usr/bin/cmake /home/zalv/hokuyo3_ws/src/icp_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/icp_node

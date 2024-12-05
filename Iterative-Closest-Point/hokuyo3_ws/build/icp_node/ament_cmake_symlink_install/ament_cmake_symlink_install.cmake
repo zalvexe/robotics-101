@@ -352,6 +352,9 @@ ament_cmake_symlink_install_files("/home/zalv/hokuyo3_ws/src/icp_node" FILES "/h
 # install(FILES "/home/zalv/hokuyo3_ws/build/icp_node/ament_cmake_index/share/ament_index/resource_index/packages/icp_node" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/zalv/hokuyo3_ws/src/icp_node" FILES "/home/zalv/hokuyo3_ws/build/icp_node/ament_cmake_index/share/ament_index/resource_index/packages/icp_node" "DESTINATION" "share/ament_index/resource_index/packages")
 
+# install(FILES "/home/zalv/hokuyo3_ws/build/icp_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/icp_node/cmake")
+ament_cmake_symlink_install_files("/home/zalv/hokuyo3_ws/src/icp_node" FILES "/home/zalv/hokuyo3_ws/build/icp_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/icp_node/cmake")
+
 # install(FILES "/home/zalv/hokuyo3_ws/build/icp_node/ament_cmake_core/icp_nodeConfig.cmake" "/home/zalv/hokuyo3_ws/build/icp_node/ament_cmake_core/icp_nodeConfig-version.cmake" "DESTINATION" "share/icp_node/cmake")
 ament_cmake_symlink_install_files("/home/zalv/hokuyo3_ws/src/icp_node" FILES "/home/zalv/hokuyo3_ws/build/icp_node/ament_cmake_core/icp_nodeConfig.cmake" "/home/zalv/hokuyo3_ws/build/icp_node/ament_cmake_core/icp_nodeConfig-version.cmake" "DESTINATION" "share/icp_node/cmake")
 

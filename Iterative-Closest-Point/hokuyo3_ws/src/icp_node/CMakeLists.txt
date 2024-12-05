@@ -8,28 +8,32 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
+# find_package(PCL COMPONENT REQUIRED)
 find_package(pcl_conversions REQUIRED)
-find_package(PCL REQUIRED)
+find_package(PCL REQUIRED COMPONENTS <components>)
 
 include_directories(
   ${rclcpp_INCLUDE_DIRS}
   ${sensor_msgs_INCLUDE_DIRS}
+  ${pcl_conversions_INCLUDE_DIRS}
   ${PCL_INCLUDE_DIRS}
 )
 
 add_executable(icp_node src/icp_node.cpp)
 
-add_executable(map_builder_node src/map_builder.cpp)
+# add_executable(map_builder_node src/map_builder.cpp)
 
 ament_target_dependencies(icp_node rclcpp sensor_msgs pcl_conversions PCL)
 
-install(TARGETS
-  map_builder_node
-  DESTINATION lib/${PROJECT_NAME}
-)
+# install(TARGETS
+#   map_builder_node
+#   DESTINATION lib/${PROJECT_NAME}
+# )
 
 install(TARGETS
   icp_node
   DESTINATION lib/${PROJECT_NAME})
+
+ament_export_include_directories(include)
 
 ament_package()

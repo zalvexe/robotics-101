@@ -36,7 +36,7 @@ private:
             RCLCPP_WARN(this->get_logger(), "Aggregated cloud is empty, not saving.");
             return;
         }
-    
+
         std::string filename = "fixed_map.pcd";
         pcl::io::savePCDFileASCII(filename, *aggregated_cloud_);
         RCLCPP_INFO(this->get_logger(), "Saved aggregated cloud to %s", filename.c_str());

@@ -445,6 +445,15 @@ OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 //path to 2d headers
 PCL_2D_INCLUDE_DIR:PATH=/usr/include/pcl-1.12
 
+//path to <components> headers
+PCL_<COMPONENTS>_INCLUDE_DIR:PATH=PCL_<COMPONENTS>_INCLUDE_DIR-NOTFOUND
+
+//path to pcl_<components> library
+PCL_<COMPONENTS>_LIBRARY:FILEPATH=PCL_<COMPONENTS>_LIBRARY-NOTFOUND
+
+//path to pcl_<components> library debug
+PCL_<COMPONENTS>_LIBRARY_DEBUG:FILEPATH=PCL_<COMPONENTS>_LIBRARY_DEBUG-NOTFOUND
+
 //path to apps headers
 PCL_APPS_INCLUDE_DIR:PATH=/usr/include/pcl-1.12
 
@@ -1402,6 +1411,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_FLANN:INTERNAL=[/usr/lib/x86_64-linux-gnu/libflann_
 FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/humble/include][/opt/ros/humble/lib/libfastrtps.so;/opt/ros/humble/lib/libfastcdr.so][v()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
+//Details about finding PCL
+FIND_PACKAGE_MESSAGE_DETAILS_PCL:INTERNAL=[pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL][/usr/include/pcl-1.12][v()]
 //Details about finding PCL_2D
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_2D:INTERNAL=[/usr/include/pcl-1.12][v()]
 //Details about finding PCL_APPS
@@ -1546,6 +1557,12 @@ OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_2D_INCLUDE_DIR
 PCL_2D_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_<COMPONENTS>_INCLUDE_DIR
+PCL_<COMPONENTS>_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_<COMPONENTS>_LIBRARY
+PCL_<COMPONENTS>_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_<COMPONENTS>_LIBRARY_DEBUG
+PCL_<COMPONENTS>_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_APPS_INCLUDE_DIR
 PCL_APPS_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_APPS_LIBRARY

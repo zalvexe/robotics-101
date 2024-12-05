@@ -1,0 +1,7 @@
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/icp_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.hpp: No such file or directory
+    3 | #include [01;31m[K<pcl_conversions/pcl_conversions.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/icp_node.dir/build.make:76: CMakeFiles/icp_node.dir/src/icp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/icp_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
