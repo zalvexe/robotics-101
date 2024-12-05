@@ -1,0 +1,169 @@
+<?xml version="1.0"?> 
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot" >
+
+    <xacro:include filename="robot_gazebo.xacro" />
+
+    <link name="world"/>
+
+    <joint name = "base_joint" type="fixed">
+        <origin xyz="1.5 1 0" rpy="0 0 0"/>
+        <parent link="world"/>
+        <child link="base_link"/>
+    </joint>
+
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 0.15" rpy="0 0 0"/>
+            <geometry>
+                <box size="2.5 1.5 0.5"/>
+            </geometry>
+            <material name="blue">
+                <color rgba="0 0 1 1 "/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0.15" rpy="0 0 0"/>
+            <geometry>
+                <box size="2.5 1.5 0.5"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0.15" rpy="0 0 0"/>
+            <mass value="5"/>
+            <inertia ixx="2.6" ixy="0" ixz="0" iyy="6.78" iyz="0" izz="8.86"/>
+        </inertial>
+    </link>
+
+    <joint name="box_joint" type="fixed">
+        <origin xyz="1 0 0.5" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="box_link"/>
+    </joint>
+
+    <link name="box_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.5 1 0.2"/>
+            </geometry>
+            <material name="red">
+                <color rgba="1 0 0 1"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.5 1 0.2"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1"/>
+            <inertia ixx="0.087" ixy="0" ixz="0" iyy="0.024" iyz="0" izz="0.104"/>
+        </inertial>
+    </link>
+
+    <xacro:property name="arm_len" value="1.5" />
+    <xacro:property name="arm_rad" value="0.1" />
+
+    <joint name="arm_joint" type="revolute">
+        <origin xyz="0.25 0 0.25" rpy="0 0 0"/>
+        <parent link="box_link"/>
+        <child link="arm_link"/>
+        <axis xyz="0 -1 0"/>
+        <limit lower="0" upper="1.57" effort="100" velocity="10"/>
+    </joint>
+
+    <link name="arm_link">
+        <visual>
+            <origin xyz="${arm_len/2} 0 0" rpy="0 ${pi/2} 0"/>
+            <geometry>
+                <cylinder radius="${arm_rad}" length="${arm_len}"/>
+            </geometry>
+            <material name="green">
+                <color rgba="0 1 0 1"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="${arm_len/2} 0 0" rpy="0 ${pi/2} 0"/>
+            <geometry>
+                <cylinder radius="${arm_rad}" length="${arm_len}"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="${arm_len/2} 0 0" rpy="0 ${pi/2} 0"/>
+            <mass value="1"/>
+            <inertia ixx="0.005" ixy="0" ixz="0" iyy="0.005" iyz="0" izz="0.336"/>
+        </inertial>
+    </link>
+
+    <joint name="l2_joint" type="revolute">
+        <parent link="arm_link"/>
+        <child link="l2_link"/>
+        <origin xyz="1.5 0 0" rpy="0 0 0"/>
+        <axis rpy="0 0 0" xyz="0 -1 0"/>
+        <limit lower="-1.5" upper="1.5" effort="100" velocity="100"/>
+    </joint>
+
+    <link name="l2_link">
+        <visual>
+            <origin xyz="0.75 0 0" rpy="0 1.57 0"/>
+            <geometry>
+                <cylinder radius="${arm_rad}" length="${arm_len}"/>
+            </geometry>
+            <material name="green">
+                <color rgba="0 1 0 1"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.75 0 0" rpy="0 1.57 0"/>
+            <geometry>
+                <cylinder radius="${arm_rad}" length="${arm_len}"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0.75 0 0" rpy="0 1.57 0"/>
+            <mass value="1"/>
+            <inertia ixx="0.005" ixy="0" ixz="0" iyy="0.005" iyz="0" izz="0.336"/>
+        </inertial>
+    </link>
+
+    <joint name="camera_joint" type="fixed">
+        <origin xyz="0.3 0 0" rpy="0 0 0"/>
+        <parent link="box_link"/>
+        <child link="camera_link"/>
+    </joint>
+
+    <link name="camera_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.1 0.3 0.1"/>
+            </geometry>
+            <material name="green">
+                <color rgba="0 1 0 1"/>
+            </material>
+        </visual>
+        <visual>
+            <origin xyz="0.05 0 0" rpy="0 ${pi/2} 0"/>
+            <geometry>
+                <cylinder length="0.05" radius="0.04"/>
+            </geometry>
+            <material name="green">
+                <color rgba="0 1 0 1"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.25 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.2 0.3 0.2"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="0.4"/>
+            <inertia ixx="0.004" ixy="0" ixz="0" iyy="0.003" iyz="0" izz="0.0043"/>
+        </inertial>
+    </link>
+</robot>
+
