@@ -1,0 +1,6 @@
+Invoking command in '/home/zalv/hokuyo3_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/Lslidar_ROS2_driver/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/lslidar_msgs
+Invoked command in '/home/zalv/hokuyo3_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/Lslidar_ROS2_driver/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/lslidar_msgs
+Invoking command in '/home/zalv/hokuyo3_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/lslidar_msgs -- -j22 -l22
+Invoked command in '/home/zalv/hokuyo3_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/lslidar_msgs -- -j22 -l22
+Invoking command in '/home/zalv/hokuyo3_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/lslidar_msgs
+Invoked command in '/home/zalv/hokuyo3_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/lslidar_msgs

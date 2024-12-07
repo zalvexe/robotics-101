@@ -1,0 +1,347 @@
+[0.052s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.052s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78b677b15c60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78b677c1e380>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78b677c1e380>>, mixin_verb=('build',))
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.114s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zalv/hokuyo3_ws'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extension 'ros'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extensions ['cmake', 'python']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extension 'cmake'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extension 'python'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extensions ['python_setup_py']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver) by extension 'python_setup_py'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_node) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_node) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_node) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_node) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_node) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_node) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_node) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_node) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_node) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/icp_node' with type 'ros.ament_cmake' and name 'icp_node'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_to_pc) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_to_pc) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_to_pc) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_to_pc) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_to_pc) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_to_pc) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_to_pc) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_to_pc) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_to_pc) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_to_pc' with type 'ros.ament_cmake' and name 'laser_to_pc'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pclomp) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pclomp) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pclomp) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pclomp) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pclomp) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pclomp) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pclomp) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pclomp) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/pclomp) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pclomp' with type 'ros.cmake' and name 'pclomp'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ros'
+[0.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node2' with type 'ros.ament_cmake' and name 'urg_node2'
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'icp_node' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'icp_node' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'icp_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'icp_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'icp_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'icp_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'icp_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'icp_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'icp_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'icp_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zalv/hokuyo3_ws/build/icp_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zalv/hokuyo3_ws/install/icp_node', 'merge_install': False, 'path': '/home/zalv/hokuyo3_ws/src/icp_node', 'symlink_install': True, 'test_result_base': None}
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'laser_to_pc' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'laser_to_pc' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'laser_to_pc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'laser_to_pc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'laser_to_pc' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'laser_to_pc' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'laser_to_pc' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'laser_to_pc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'laser_to_pc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'laser_to_pc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zalv/hokuyo3_ws/build/laser_to_pc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zalv/hokuyo3_ws/install/laser_to_pc', 'merge_install': False, 'path': '/home/zalv/hokuyo3_ws/src/laser_to_pc', 'symlink_install': True, 'test_result_base': None}
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'pclomp' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'pclomp' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'pclomp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'pclomp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'pclomp' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'pclomp' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'pclomp' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'pclomp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'pclomp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'pclomp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zalv/hokuyo3_ws/build/pclomp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zalv/hokuyo3_ws/install/pclomp', 'merge_install': False, 'path': '/home/zalv/hokuyo3_ws/src/pclomp', 'symlink_install': True, 'test_result_base': None}
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zalv/hokuyo3_ws/build/urg_node2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zalv/hokuyo3_ws/install/urg_node2', 'merge_install': False, 'path': '/home/zalv/hokuyo3_ws/src/urg_node2', 'symlink_install': True, 'test_result_base': None}
+[0.137s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.139s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.139s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zalv/hokuyo3_ws/src/icp_node' with build type 'ament_cmake'
+[0.139s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zalv/hokuyo3_ws/src/icp_node'
+[0.140s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.142s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zalv/hokuyo3_ws/src/laser_to_pc' with build type 'ament_cmake'
+[0.142s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zalv/hokuyo3_ws/src/laser_to_pc'
+[0.142s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.142s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.143s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/zalv/hokuyo3_ws/src/pclomp' with build type 'cmake'
+[0.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zalv/hokuyo3_ws/src/pclomp'
+[0.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.144s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zalv/hokuyo3_ws/src/urg_node2' with build type 'ament_cmake'
+[0.144s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zalv/hokuyo3_ws/src/urg_node2'
+[0.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+[0.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[0.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zalv/hokuyo3_ws/build/pclomp': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/pclomp -- -j22 -l22
+[0.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zalv/hokuyo3_ws/build/urg_node2': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/urg_node2 -- -j22 -l22
+[0.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '0': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+[0.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '0': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[0.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zalv/hokuyo3_ws/build/pclomp' returned '0': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/pclomp -- -j22 -l22
+[0.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zalv/hokuyo3_ws/build/urg_node2' returned '0': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/urg_node2 -- -j22 -l22
+[0.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/laser_to_pc
+[0.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/icp_node
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zalv/hokuyo3_ws/build/pclomp': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/pclomp
+[0.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zalv/hokuyo3_ws/build/pclomp' returned '0': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/pclomp
+[0.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_to_pc)
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '0': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/laser_to_pc
+[0.263s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc' for CMake module files
+[0.263s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc' for CMake config files
+[0.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_to_pc', 'cmake_prefix_path')
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/hook/cmake_prefix_path.ps1'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/hook/cmake_prefix_path.dsv'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/hook/cmake_prefix_path.sh'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/lib'
+[0.267s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/bin'
+[0.267s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/lib/pkgconfig/laser_to_pc.pc'
+[0.269s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/lib/python3.10/site-packages'
+[0.269s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/bin'
+[0.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.ps1'
+[0.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.dsv'
+[0.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.bash'
+[0.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.zsh'
+[0.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zalv/hokuyo3_ws/install/laser_to_pc/share/colcon-core/packages/laser_to_pc)
+[0.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icp_node)
+[0.275s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node' for CMake module files
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '0': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/icp_node
+[0.275s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node' for CMake config files
+[0.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_node', 'cmake_prefix_path')
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/hook/cmake_prefix_path.ps1'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/hook/cmake_prefix_path.dsv'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/hook/cmake_prefix_path.sh'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/lib'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/bin'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/lib/pkgconfig/icp_node.pc'
+[0.277s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/lib/python3.10/site-packages'
+[0.277s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/bin'
+[0.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.ps1'
+[0.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.dsv'
+[0.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.sh'
+[0.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.bash'
+[0.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.zsh'
+[0.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zalv/hokuyo3_ws/install/icp_node/share/colcon-core/packages/icp_node)
+[0.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zalv/hokuyo3_ws/build/urg_node2': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/urg_node2
+[0.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('pclomp', 'pkg_config_path')
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/pkg_config_path.ps1'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/pkg_config_path.dsv'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/pkg_config_path.sh'
+[0.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('pclomp', 'pkg_config_path_multiarch')
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/pkg_config_path_multiarch.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/pkg_config_path_multiarch.dsv'
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/pkg_config_path_multiarch.sh'
+[0.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pclomp)
+[0.287s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/pclomp' for CMake module files
+[0.288s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/pclomp' for CMake config files
+[0.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('pclomp', 'cmake_prefix_path')
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/cmake_prefix_path.ps1'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/cmake_prefix_path.dsv'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/cmake_prefix_path.sh'
+[0.291s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/pclomp/lib'
+[0.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('pclomp', 'ld_library_path_lib')
+[0.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/ld_library_path_lib.ps1'
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/ld_library_path_lib.dsv'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/hook/ld_library_path_lib.sh'
+[0.293s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/pclomp/bin'
+[0.293s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/pclomp/lib/pkgconfig/pclomp.pc'
+[0.293s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/pclomp/lib/python3.10/site-packages'
+[0.293s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/pclomp/bin'
+[0.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/package.ps1'
+[0.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/package.dsv'
+[0.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/package.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/package.bash'
+[0.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/pclomp/share/pclomp/package.zsh'
+[0.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zalv/hokuyo3_ws/install/pclomp/share/colcon-core/packages/pclomp)
+[0.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_to_pc)
+[0.297s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc' for CMake module files
+[0.297s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc' for CMake config files
+[0.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_to_pc', 'cmake_prefix_path')
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/hook/cmake_prefix_path.ps1'
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/hook/cmake_prefix_path.dsv'
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/hook/cmake_prefix_path.sh'
+[0.299s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/lib'
+[0.299s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/bin'
+[0.299s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/lib/pkgconfig/laser_to_pc.pc'
+[0.299s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/lib/python3.10/site-packages'
+[0.300s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/laser_to_pc/bin'
+[0.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.ps1'
+[0.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.dsv'
+[0.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.sh'
+[0.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.bash'
+[0.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.zsh'
+[0.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zalv/hokuyo3_ws/install/laser_to_pc/share/colcon-core/packages/laser_to_pc)
+[0.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icp_node)
+[0.305s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node' for CMake module files
+[0.306s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node' for CMake config files
+[0.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_node', 'cmake_prefix_path')
+[0.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/hook/cmake_prefix_path.ps1'
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/hook/cmake_prefix_path.dsv'
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/hook/cmake_prefix_path.sh'
+[0.308s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/lib'
+[0.308s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/bin'
+[0.308s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/lib/pkgconfig/icp_node.pc'
+[0.308s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/lib/python3.10/site-packages'
+[0.308s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/icp_node/bin'
+[0.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.ps1'
+[0.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.dsv'
+[0.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.sh'
+[0.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.bash'
+[0.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.zsh'
+[0.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zalv/hokuyo3_ws/install/icp_node/share/colcon-core/packages/icp_node)
+[0.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2' for CMake module files
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zalv/hokuyo3_ws/build/urg_node2' returned '0': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/urg_node2
+[0.311s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2' for CMake config files
+[0.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[0.312s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/lib'
+[0.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[0.313s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/bin'
+[0.313s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/lib/python3.10/site-packages'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/bin'
+[0.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.dsv'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.sh'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.bash'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.zsh'
+[0.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zalv/hokuyo3_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
+[0.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2' for CMake module files
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2' for CMake config files
+[0.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
+[0.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[0.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[0.358s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/lib'
+[0.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/bin'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/lib/python3.10/site-packages'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/zalv/hokuyo3_ws/install/urg_node2/bin'
+[0.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.sh'
+[0.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.bash'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.zsh'
+[0.361s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zalv/hokuyo3_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
+[0.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.361s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.366s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.378s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zalv/hokuyo3_ws/install/local_setup.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zalv/hokuyo3_ws/install/_local_setup_util_ps1.py'
+[0.380s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zalv/hokuyo3_ws/install/setup.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zalv/hokuyo3_ws/install/local_setup.sh'
+[0.380s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zalv/hokuyo3_ws/install/_local_setup_util_sh.py'
+[0.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zalv/hokuyo3_ws/install/setup.sh'
+[0.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zalv/hokuyo3_ws/install/local_setup.bash'
+[0.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zalv/hokuyo3_ws/install/setup.bash'
+[0.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zalv/hokuyo3_ws/install/local_setup.zsh'
+[0.382s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zalv/hokuyo3_ws/install/setup.zsh'

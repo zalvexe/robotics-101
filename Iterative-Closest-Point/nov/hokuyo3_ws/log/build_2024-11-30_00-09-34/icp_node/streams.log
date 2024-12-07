@@ -1,0 +1,22 @@
+[0.013s] Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+[0.064s] [ 25%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/map_builder.cpp.o[0m
+[0.084s] [ 75%] Built target icp_node
+[0.138s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[0.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[0.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[0.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[0.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[0.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[0.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[0.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[0.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[0.139s]                  from [01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/map_builder.cpp:1[m[K:
+[0.139s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Krcl_interfaces/msg/set_parameters_result.hpp: No such file or directory
+[0.139s]    28 | #include [01;31m[K"rcl_interfaces/msg/set_parameters_result.hpp"[m[K
+[0.139s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.139s] compilation terminated.
+[0.147s] gmake[2]: *** [CMakeFiles/map_builder_node.dir/build.make:76: CMakeFiles/map_builder_node.dir/src/map_builder.cpp.o] Error 1
+[0.147s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/map_builder_node.dir/all] Error 2
+[0.147s] gmake: *** [Makefile:146: all] Error 2
+[0.150s] Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22

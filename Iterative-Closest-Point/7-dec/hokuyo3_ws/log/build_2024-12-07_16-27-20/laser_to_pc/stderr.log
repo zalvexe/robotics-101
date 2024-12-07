@@ -1,0 +1,20 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl[m[K’ does not name a type
+   25 |     [01;31m[Kpcl[m[K::PointCloud<pcl::PointXYZ> pcl_cloud;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl[m[K’ does not name a type
+   26 |     [01;31m[Kpcl[m[K::fromROSMsg(cloud_out, pcl_cloud);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:28:23:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+   28 |     std::ofstream ofs([01;31m[K"laser_pointcloud.txt"[m[K);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:28:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:29:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+   29 |     [01;31m[Kif[m[K(ofs.is_open())
+      |     [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:38:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+   38 |     [01;31m[Kelse[m[K{
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/laser_to_pointcloud.dir/build.make:76: CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_to_pointcloud.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

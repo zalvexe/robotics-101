@@ -1,0 +1,7 @@
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+    5 | #include [01;31m[K<pcl_conversions/pcl_conversions.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/laser_to_pointcloud.dir/build.make:76: CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_to_pointcloud.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

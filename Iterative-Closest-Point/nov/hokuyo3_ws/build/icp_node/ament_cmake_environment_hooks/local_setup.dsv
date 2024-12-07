@@ -1,0 +1,2 @@
+source;share/icp_node/environment/ament_prefix_path.sh
+source;share/icp_node/environment/path.sh

@@ -1,0 +1,13 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/map_builder_node.dir/build.make:97: map_builder_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/map_builder_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/icp_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.hpp: No such file or directory
+    3 | #include [01;31m[K<pcl_conversions/pcl_conversions.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/icp_node.dir/build.make:76: CMakeFiles/icp_node.dir/src/icp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/icp_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

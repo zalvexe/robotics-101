@@ -1,0 +1,8 @@
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:47:10:[m[K [01;31m[Kfatal error: [m[Kpclomp/ndt_omp.h: No such file or directory
+   47 | #include [01;31m[K<pclomp/ndt_omp.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/scan_localizer2.dir/build.make:76: CMakeFiles/scan_localizer2.dir/src/scan_localizer2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/scan_localizer2.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[0.011s] Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+[0.078s] [ 25%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/map_builder.cpp.o[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/icp_node.cpp.o[0m
+[0.104s] [ 75%] [32m[1mLinking CXX executable map_builder_node[0m
+[0.139s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.139s] (.text+0x1b): undefined reference to `main'
+[0.140s] collect2: error: ld returned 1 exit status
+[0.141s] gmake[2]: *** [CMakeFiles/map_builder_node.dir/build.make:97: map_builder_node] Error 1
+[0.142s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/map_builder_node.dir/all] Error 2
+[0.142s] gmake[1]: *** Waiting for unfinished jobs....
+[0.331s] [01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/icp_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.hpp: No such file or directory
+[0.331s]     3 | #include [01;31m[K<pcl_conversions/pcl_conversions.hpp>[m[K
+[0.331s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.331s] compilation terminated.
+[0.334s] gmake[2]: *** [CMakeFiles/icp_node.dir/build.make:76: CMakeFiles/icp_node.dir/src/icp_node.cpp.o] Error 1
+[0.334s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/icp_node.dir/all] Error 2
+[0.334s] gmake: *** [Makefile:146: all] Error 2
+[0.339s] Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '2': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22

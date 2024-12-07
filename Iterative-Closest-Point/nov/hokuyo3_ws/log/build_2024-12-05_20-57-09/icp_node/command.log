@@ -1,0 +1,2 @@
+Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': /usr/bin/cmake /home/zalv/hokuyo3_ws/src/icp_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/icp_node
+Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '1': /usr/bin/cmake /home/zalv/hokuyo3_ws/src/icp_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/icp_node

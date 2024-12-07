@@ -1,0 +1,4 @@
+Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '0': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/icp_node
+Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '0': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/icp_node
