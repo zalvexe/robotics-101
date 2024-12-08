@@ -10,7 +10,25 @@ ICP, or Iterative Closest Point, is an algorithm used in computer vision and rob
   
 ![image](https://github.com/user-attachments/assets/f52bd3c9-83e7-41ef-8eb4-3ccb1c89af84)
 
-Lidar used: Hokuyo  
-Notes: Research on progress.. :] About to implementing the calculation from icp xyz to Rotation and Translation..   
+Lidar used: Hokuyo, lslidar     
+
+## PROGRESS:
+[✅] Accessing Lidar    
+[✅] Publishing /scan from LaserScan to Pointcloud2 as XYZ   
+[✅] Saving the PCL result to pointcloud.txt as fixed map   
+[✅] Getting all lidar angle data (360 deg)  
+[❌] Publishing fixed map to rviz  
+[❌] Implementing ICP calculation   
+[❌] Calculating R and T data and publishing them   
+[❌] Complementary fusion with Odometry   
+## ---------------------------------------------- '_' ----------------------------------------------------
+### Notes on 7 Dec 24:  
+Implemented program in Lslidar N10_P. Some problem faced (and solved):     
+- Issue: Received only ~270 LiDAR angle data points.  
+  - **Solution**: Limited the `max_range` to 10 meters.  
+- Issue: Mismatched LiDAR driver, resulting in incorrect scan results.  
+  - **Solution**: Updated the YAML parameters from `N10` to `N10_P`.
+
+> Notes: Research on progress.. :]   
 
 
