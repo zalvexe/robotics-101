@@ -14,7 +14,7 @@ Lidar used: Hokuyo, lslidar
 
 ## PROGRESS:
 [✅] Accessing Lidar    
-[✅] Publishing /scan from LaserScan to Pointcloud2 as XYZ   
+[✅] Publishing `/scan` from LaserScan to Pointcloud2 as XYZ   
 [✅] Saving the PCL result to pointcloud.txt as fixed map   
 [✅] Getting all lidar angle data (360 deg)  
 [❌] Publishing fixed map to rviz  
