@@ -17,7 +17,7 @@ Lidar used: Hokuyo, lslidar
 [✅] Publishing `/scan` from LaserScan to Pointcloud2 as XYZ   
 [✅] Saving the PCL result to `pointcloud.txt` as fixed map   
 [✅] Getting all lidar angle data (360 deg)  
-[❌] Publishing fixed map to rviz  
+[✅] Publishing fixed map to rviz  
 [❌] Implementing ICP calculation   
 [❌] Calculating R and T data and publishing them   
 [❌] Complementary fusion with Odometry   
