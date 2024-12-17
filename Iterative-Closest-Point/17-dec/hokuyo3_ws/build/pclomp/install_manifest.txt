@@ -1,0 +1,8 @@
+/home/zalv/hokuyo3_ws/install/pclomp/lib/libregistration.so
+/home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/gicp_omp.h
+/home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/ndt_omp.h
+/home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/voxel_grid_covariance_omp.h
+/home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-targets.cmake
+/home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-targets-noconfig.cmake
+/home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-config.cmake
+/home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-config-version.cmake

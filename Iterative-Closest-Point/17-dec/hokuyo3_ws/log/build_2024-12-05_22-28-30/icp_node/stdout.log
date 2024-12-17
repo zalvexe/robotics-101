@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target icp_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/scan_localizer2.dir/src/scan_localizer2.cpp.o[0m
+[ 75%] Built target icp_node

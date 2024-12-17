@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000448] (icp_node) JobQueued: {'identifier': 'icp_node', 'dependencies': OrderedDict()}
+[0.000534] (laser_to_pc) JobQueued: {'identifier': 'laser_to_pc', 'dependencies': OrderedDict()}
+[0.000594] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.000662] (icp_node) JobStarted: {'identifier': 'icp_node'}
+[0.004222] (laser_to_pc) JobStarted: {'identifier': 'laser_to_pc'}
+[0.006752] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.010880] (icp_node) JobProgress: {'identifier': 'icp_node', 'progress': 'cmake'}
+[0.011526] (icp_node) JobProgress: {'identifier': 'icp_node', 'progress': 'build'}
+[0.012100] (icp_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zalv/hokuyo3_ws/build/icp_node', '--', '-j22', '-l22'], 'cwd': '/home/zalv/hokuyo3_ws/build/icp_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'zalv'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/zalv/hokuyo3_ws/install/urg_node2/lib:/usr/local/lib:'), ('OLDPWD', '/home/zalv'), ('HOME', '/home/zalv'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/zalv/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '2385'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4096'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zalv'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:26970'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'zalv'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zalv:@/tmp/.ICE-unix/2514,unix/zalv:/tmp/.ICE-unix/2514'), ('INVOCATION_ID', '86dd561707e74d5797a072751f02f918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DSMEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node'), ('TERMINATOR_UUID', 'urn:uuid:125fc2ff-f06d-48f5-ad1f-a12c39380968'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zalv/hokuyo3_ws/build/icp_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/home/zalv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble')]), 'shell': False}
+[0.014467] (laser_to_pc) JobProgress: {'identifier': 'laser_to_pc', 'progress': 'cmake'}
+[0.015337] (laser_to_pc) JobProgress: {'identifier': 'laser_to_pc', 'progress': 'build'}
+[0.016436] (laser_to_pc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zalv/hokuyo3_ws/build/laser_to_pc', '--', '-j22', '-l22'], 'cwd': '/home/zalv/hokuyo3_ws/build/laser_to_pc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'zalv'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/zalv/hokuyo3_ws/install/urg_node2/lib:/usr/local/lib:'), ('OLDPWD', '/home/zalv'), ('HOME', '/home/zalv'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/zalv/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '2385'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4096'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zalv'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:26970'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'zalv'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zalv:@/tmp/.ICE-unix/2514,unix/zalv:/tmp/.ICE-unix/2514'), ('INVOCATION_ID', '86dd561707e74d5797a072751f02f918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DSMEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node'), ('TERMINATOR_UUID', 'urn:uuid:125fc2ff-f06d-48f5-ad1f-a12c39380968'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zalv/hokuyo3_ws/build/laser_to_pc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/home/zalv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble')]), 'shell': False}
+[0.022486] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[0.023219] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'build'}
+[0.023510] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zalv/hokuyo3_ws/build/urg_node2', '--', '-j22', '-l22'], 'cwd': '/home/zalv/hokuyo3_ws/build/urg_node2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'zalv'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/zalv/hokuyo3_ws/install/urg_node2/lib:/usr/local/lib:'), ('OLDPWD', '/home/zalv'), ('HOME', '/home/zalv'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/zalv/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '2385'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4096'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zalv'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:26970'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'zalv'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zalv:@/tmp/.ICE-unix/2514,unix/zalv:/tmp/.ICE-unix/2514'), ('INVOCATION_ID', '86dd561707e74d5797a072751f02f918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DSMEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node'), ('TERMINATOR_UUID', 'urn:uuid:125fc2ff-f06d-48f5-ad1f-a12c39380968'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zalv/hokuyo3_ws/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/home/zalv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble')]), 'shell': False}
+[0.038411] (icp_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.073299] (urg_node2) StdoutLine: {'line': b'[ 45%] Built target urg_c\n'}
+[0.074030] (laser_to_pc) StdoutLine: {'line': b'[100%] Built target laser_to_pointcloud\n'}
+[0.074272] (urg_node2) StdoutLine: {'line': b'[ 55%] Built target gtest\n'}
+[0.075428] (urg_node2) StdoutLine: {'line': b'[ 65%] Built target gtest_main\n'}
+[0.079943] (urg_node2) StdoutLine: {'line': b'[ 75%] Built target urg_node2_node\n'}
+[0.083539] (laser_to_pc) CommandEnded: {'returncode': 0}
+[0.095643] (urg_node2) StdoutLine: {'line': b'[ 85%] Built target urg_node2\n'}
+[0.099657] (-) TimerEvent: {}
+[0.101050] (urg_node2) StdoutLine: {'line': b'[100%] Built target urg_node2_test\n'}
+[0.108024] (laser_to_pc) JobProgress: {'identifier': 'laser_to_pc', 'progress': 'install'}
+[0.117098] (laser_to_pc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zalv/hokuyo3_ws/build/laser_to_pc'], 'cwd': '/home/zalv/hokuyo3_ws/build/laser_to_pc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'zalv'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/zalv/hokuyo3_ws/install/urg_node2/lib:/usr/local/lib:'), ('OLDPWD', '/home/zalv'), ('HOME', '/home/zalv'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/zalv/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '2385'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4096'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zalv'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:26970'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'zalv'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zalv:@/tmp/.ICE-unix/2514,unix/zalv:/tmp/.ICE-unix/2514'), ('INVOCATION_ID', '86dd561707e74d5797a072751f02f918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DSMEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node'), ('TERMINATOR_UUID', 'urn:uuid:125fc2ff-f06d-48f5-ad1f-a12c39380968'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zalv/hokuyo3_ws/build/laser_to_pc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/home/zalv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble')]), 'shell': False}
+[0.118244] (urg_node2) CommandEnded: {'returncode': 0}
+[0.122749] (laser_to_pc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.123332] (laser_to_pc) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.123638] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/lib/laser_to_pc/laser_to_pointcloud\n'}
+[0.123871] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/package_run_dependencies/laser_to_pc\n'}
+[0.124062] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/parent_prefix_path/laser_to_pc\n'}
+[0.124235] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/ament_prefix_path.sh\n'}
+[0.124410] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/ament_prefix_path.dsv\n'}
+[0.124550] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/path.sh\n'}
+[0.124707] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/path.dsv\n'}
+[0.124883] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.bash\n'}
+[0.125068] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.sh\n'}
+[0.125188] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.zsh\n'}
+[0.125293] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.dsv\n'}
+[0.125389] (laser_to_pc) StdoutLine: {'line': b'-- Symlinking: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.dsv\n'}
+[0.136482] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/packages/laser_to_pc\n'}
+[0.136761] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/cmake/laser_to_pcConfig.cmake\n'}
+[0.136997] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/cmake/laser_to_pcConfig-version.cmake\n'}
+[0.137072] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.xml\n'}
+[0.139001] (laser_to_pc) CommandEnded: {'returncode': 0}
+[0.170854] (icp_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.175018] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'install'}
+[0.175734] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zalv/hokuyo3_ws/build/urg_node2'], 'cwd': '/home/zalv/hokuyo3_ws/build/urg_node2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'zalv'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/zalv/hokuyo3_ws/install/urg_node2/lib:/usr/local/lib:'), ('OLDPWD', '/home/zalv'), ('HOME', '/home/zalv'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/zalv/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '2385'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4096'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zalv'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:26970'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'zalv'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zalv:@/tmp/.ICE-unix/2514,unix/zalv:/tmp/.ICE-unix/2514'), ('INVOCATION_ID', '86dd561707e74d5797a072751f02f918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DSMEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node'), ('TERMINATOR_UUID', 'urn:uuid:125fc2ff-f06d-48f5-ad1f-a12c39380968'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zalv/hokuyo3_ws/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/home/zalv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble')]), 'shell': False}
+[0.180463] (icp_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.185394] (urg_node2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.186040] (urg_node2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.187283] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/environment/library_path.sh\n'}
+[0.187444] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/environment/library_path.dsv\n'}
+[0.187569] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/lib/urg_node2/urg_node2_node\n'}
+[0.187972] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/lib/liburg_node2.so\n'}
+[0.188101] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/lib/liburg_c.so\n'}
+[0.188194] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py\n'}
+[0.188270] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py\n'}
+[0.188360] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py\n'}
+[0.188445] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/config/params_ether.yaml\n'}
+[0.188511] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml\n'}
+[0.188578] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/config/params_serial.yaml\n'}
+[0.188643] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2\n'}
+[0.188721] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2\n'}
+[0.188791] (laser_to_pc) JobEnded: {'identifier': 'laser_to_pc', 'rc': 0}
+[0.189181] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh\n'}
+[0.189291] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv\n'}
+[0.189364] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/environment/path.sh\n'}
+[0.189433] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/environment/path.dsv\n'}
+[0.189499] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/local_setup.bash\n'}
+[0.189564] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/local_setup.sh\n'}
+[0.189629] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/local_setup.zsh\n'}
+[0.189709] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/local_setup.dsv\n'}
+[0.189779] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.dsv\n'}
+[0.196783] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/ament_index/resource_index/packages/urg_node2\n'}
+[0.196973] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2\n'}
+[0.197089] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.197180] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.197268] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake\n'}
+[0.197362] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake\n'}
+[0.197445] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/urg_node2/share/urg_node2/package.xml\n'}
+[0.199145] (urg_node2) CommandEnded: {'returncode': 0}
+[0.200167] (-) TimerEvent: {}
+[0.207214] (icp_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.209182] (icp_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.214376] (icp_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.223160] (icp_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.234117] (icp_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.265106] (icp_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.266482] (icp_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.267989] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 0}
+[0.300318] (-) TimerEvent: {}
+[0.368644] (icp_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400521] (-) TimerEvent: {}
+[0.414309] (icp_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.441083] (icp_node) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.455977] (icp_node) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.491741] (icp_node) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.500634] (-) TimerEvent: {}
+[0.525046] (icp_node) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.600763] (-) TimerEvent: {}
+[0.701111] (-) TimerEvent: {}
+[0.801447] (-) TimerEvent: {}
+[0.822929] (icp_node) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.829699] (icp_node) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.901578] (-) TimerEvent: {}
+[0.988760] (icp_node) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.997006] (icp_node) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.001658] (-) TimerEvent: {}
+[1.006581] (icp_node) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.101758] (-) TimerEvent: {}
+[1.153346] (icp_node) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.201972] (-) TimerEvent: {}
+[1.300464] (icp_node) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.302081] (-) TimerEvent: {}
+[1.402363] (-) TimerEvent: {}
+[1.464585] (icp_node) StdoutLine: {'line': b'-- looking for PCL_<COMPONENTS>\n'}
+[1.465488] (icp_node) StdoutLine: {'line': b'-- Could NOT find PCL_<COMPONENTS> (missing: PCL_<COMPONENTS>_LIBRARY PCL_<COMPONENTS>_INCLUDE_DIR) \n'}
+[1.502480] (-) TimerEvent: {}
+[1.547666] (icp_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.585768] (icp_node) StdoutLine: {'line': b'-- Generating done\n'}
+[1.587851] (icp_node) StdoutLine: {'line': b'-- Build files have been written to: /home/zalv/hokuyo3_ws/build/icp_node\n'}
+[1.602649] (-) TimerEvent: {}
+[1.627038] (icp_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target icp_node\x1b[0m\n'}
+[1.633734] (icp_node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/scan_localizer2.dir/src/scan_localizer2.cpp.o\x1b[0m\n'}
+[1.656199] (icp_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/icp_node.dir/src/icp_node.cpp.o\x1b[0m\n'}
+[1.702816] (-) TimerEvent: {}
+[1.803349] (-) TimerEvent: {}
+[1.903912] (-) TimerEvent: {}
+[2.004452] (-) TimerEvent: {}
+[2.105009] (-) TimerEvent: {}
+[2.205587] (-) TimerEvent: {}
+[2.306076] (-) TimerEvent: {}
+[2.406572] (-) TimerEvent: {}
+[2.507027] (-) TimerEvent: {}
+[2.607490] (-) TimerEvent: {}
+[2.708057] (-) TimerEvent: {}
+[2.808579] (-) TimerEvent: {}
+[2.909187] (-) TimerEvent: {}
+[3.009778] (-) TimerEvent: {}
+[3.110220] (-) TimerEvent: {}
+[3.210738] (-) TimerEvent: {}
+[3.311256] (-) TimerEvent: {}
+[3.411784] (-) TimerEvent: {}
+[3.512292] (-) TimerEvent: {}
+[3.612775] (-) TimerEvent: {}
+[3.635417] (icp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:47:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpclomp/ndt_omp.h: No such file or directory\n'}
+[3.635879] (icp_node) StderrLine: {'line': b'   47 | #include \x1b[01;31m\x1b[K<pclomp/ndt_omp.h>\x1b[m\x1b[K\n'}
+[3.636081] (icp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.636244] (icp_node) StderrLine: {'line': b'compilation terminated.\n'}
+[3.652174] (icp_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/scan_localizer2.dir/build.make:76: CMakeFiles/scan_localizer2.dir/src/scan_localizer2.cpp.o] Error 1\n'}
+[3.652525] (icp_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/scan_localizer2.dir/all] Error 2\n'}
+[3.652657] (icp_node) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.712975] (-) TimerEvent: {}
+[3.813565] (-) TimerEvent: {}
+[3.914232] (-) TimerEvent: {}
+[4.014770] (-) TimerEvent: {}
+[4.115230] (-) TimerEvent: {}
+[4.215845] (-) TimerEvent: {}
+[4.316450] (-) TimerEvent: {}
+[4.417211] (-) TimerEvent: {}
+[4.517575] (-) TimerEvent: {}
+[4.617987] (-) TimerEvent: {}
+[4.718478] (-) TimerEvent: {}
+[4.818934] (-) TimerEvent: {}
+[4.919452] (-) TimerEvent: {}
+[5.020017] (-) TimerEvent: {}
+[5.120556] (-) TimerEvent: {}
+[5.221118] (-) TimerEvent: {}
+[5.321661] (-) TimerEvent: {}
+[5.422143] (-) TimerEvent: {}
+[5.522491] (-) TimerEvent: {}
+[5.622841] (-) TimerEvent: {}
+[5.723191] (-) TimerEvent: {}
+[5.823606] (-) TimerEvent: {}
+[5.923988] (-) TimerEvent: {}
+[6.024323] (-) TimerEvent: {}
+[6.124786] (-) TimerEvent: {}
+[6.225240] (-) TimerEvent: {}
+[6.325619] (-) TimerEvent: {}
+[6.425999] (-) TimerEvent: {}
+[6.526354] (-) TimerEvent: {}
+[6.626710] (-) TimerEvent: {}
+[6.727063] (-) TimerEvent: {}
+[6.827483] (-) TimerEvent: {}
+[6.928068] (-) TimerEvent: {}
+[7.028521] (-) TimerEvent: {}
+[7.129076] (-) TimerEvent: {}
+[7.229604] (-) TimerEvent: {}
+[7.330150] (-) TimerEvent: {}
+[7.430704] (-) TimerEvent: {}
+[7.531240] (-) TimerEvent: {}
+[7.631794] (-) TimerEvent: {}
+[7.732318] (-) TimerEvent: {}
+[7.832821] (-) TimerEvent: {}
+[7.933422] (-) TimerEvent: {}
+[8.033969] (-) TimerEvent: {}
+[8.134478] (-) TimerEvent: {}
+[8.235041] (-) TimerEvent: {}
+[8.335576] (-) TimerEvent: {}
+[8.436126] (-) TimerEvent: {}
+[8.536662] (-) TimerEvent: {}
+[8.637257] (-) TimerEvent: {}
+[8.737795] (-) TimerEvent: {}
+[8.838324] (-) TimerEvent: {}
+[8.938885] (-) TimerEvent: {}
+[9.039434] (-) TimerEvent: {}
+[9.139979] (-) TimerEvent: {}
+[9.240510] (-) TimerEvent: {}
+[9.341073] (-) TimerEvent: {}
+[9.441603] (-) TimerEvent: {}
+[9.542150] (-) TimerEvent: {}
+[9.642700] (-) TimerEvent: {}
+[9.743268] (-) TimerEvent: {}
+[9.843751] (-) TimerEvent: {}
+[9.944170] (-) TimerEvent: {}
+[10.044726] (-) TimerEvent: {}
+[10.145271] (-) TimerEvent: {}
+[10.245808] (-) TimerEvent: {}
+[10.346408] (-) TimerEvent: {}
+[10.446980] (-) TimerEvent: {}
+[10.547519] (-) TimerEvent: {}
+[10.648078] (-) TimerEvent: {}
+[10.748625] (-) TimerEvent: {}
+[10.849174] (-) TimerEvent: {}
+[10.949726] (-) TimerEvent: {}
+[11.050261] (-) TimerEvent: {}
+[11.150764] (-) TimerEvent: {}
+[11.251170] (-) TimerEvent: {}
+[11.351714] (-) TimerEvent: {}
+[11.452401] (-) TimerEvent: {}
+[11.552947] (-) TimerEvent: {}
+[11.653474] (-) TimerEvent: {}
+[11.754040] (-) TimerEvent: {}
+[11.854597] (-) TimerEvent: {}
+[11.955143] (-) TimerEvent: {}
+[12.055695] (-) TimerEvent: {}
+[12.156219] (-) TimerEvent: {}
+[12.256759] (-) TimerEvent: {}
+[12.357274] (-) TimerEvent: {}
+[12.457801] (-) TimerEvent: {}
+[12.558323] (-) TimerEvent: {}
+[12.658839] (-) TimerEvent: {}
+[12.759402] (-) TimerEvent: {}
+[12.859941] (-) TimerEvent: {}
+[12.960490] (-) TimerEvent: {}
+[13.061014] (-) TimerEvent: {}
+[13.161429] (-) TimerEvent: {}
+[13.261965] (-) TimerEvent: {}
+[13.362454] (-) TimerEvent: {}
+[13.462901] (-) TimerEvent: {}
+[13.563310] (-) TimerEvent: {}
+[13.663825] (-) TimerEvent: {}
+[13.764391] (-) TimerEvent: {}
+[13.865047] (-) TimerEvent: {}
+[13.965582] (-) TimerEvent: {}
+[14.066067] (-) TimerEvent: {}
+[14.166576] (-) TimerEvent: {}
+[14.267074] (-) TimerEvent: {}
+[14.367599] (-) TimerEvent: {}
+[14.468127] (-) TimerEvent: {}
+[14.568629] (-) TimerEvent: {}
+[14.669151] (-) TimerEvent: {}
+[14.769555] (-) TimerEvent: {}
+[14.870118] (-) TimerEvent: {}
+[14.970626] (-) TimerEvent: {}
+[15.071166] (-) TimerEvent: {}
+[15.171755] (-) TimerEvent: {}
+[15.272288] (-) TimerEvent: {}
+[15.372802] (-) TimerEvent: {}
+[15.473324] (-) TimerEvent: {}
+[15.573845] (-) TimerEvent: {}
+[15.674348] (-) TimerEvent: {}
+[15.774876] (-) TimerEvent: {}
+[15.875380] (-) TimerEvent: {}
+[15.975941] (-) TimerEvent: {}
+[16.076516] (-) TimerEvent: {}
+[16.177178] (-) TimerEvent: {}
+[16.277737] (-) TimerEvent: {}
+[16.378088] (-) TimerEvent: {}
+[16.478421] (-) TimerEvent: {}
+[16.578743] (-) TimerEvent: {}
+[16.679069] (-) TimerEvent: {}
+[16.779418] (-) TimerEvent: {}
+[16.879799] (-) TimerEvent: {}
+[16.980196] (-) TimerEvent: {}
+[17.080626] (-) TimerEvent: {}
+[17.181015] (-) TimerEvent: {}
+[17.196520] (icp_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable icp_node\x1b[0m\n'}
+[17.281144] (-) TimerEvent: {}
+[17.381556] (-) TimerEvent: {}
+[17.482141] (-) TimerEvent: {}
+[17.582853] (-) TimerEvent: {}
+[17.683448] (-) TimerEvent: {}
+[17.783994] (-) TimerEvent: {}
+[17.884462] (-) TimerEvent: {}
+[17.887523] (icp_node) StdoutLine: {'line': b'[ 75%] Built target icp_node\n'}
+[17.889033] (icp_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.891349] (icp_node) CommandEnded: {'returncode': 2}
+[17.919157] (icp_node) JobEnded: {'identifier': 'icp_node', 'rc': 2}
+[17.929279] (-) EventReactorShutdown: {}

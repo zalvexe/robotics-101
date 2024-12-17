@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target fixed_map_rviz[0m
+[0.082s] [ 25%] [32mBuilding CXX object CMakeFiles/fixed_map_rviz.dir/src/fixed_map_rviz.cpp.o[0m
+[0.087s] [ 75%] Built target laser_to_pointcloud
+[2.864s] [100%] [32m[1mLinking CXX executable fixed_map_rviz[0m
+[3.121s] [100%] Built target fixed_map_rviz
+[3.135s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[3.161s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/laser_to_pc
+[3.168s] -- Install configuration: ""
+[3.168s] -- Execute custom install script
+[3.168s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/lib/laser_to_pc/laser_to_pointcloud
+[3.168s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/lib/laser_to_pc/fixed_map_rviz
+[3.168s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/package_run_dependencies/laser_to_pc
+[3.169s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/parent_prefix_path/laser_to_pc
+[3.169s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/ament_prefix_path.sh
+[3.169s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/ament_prefix_path.dsv
+[3.169s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/path.sh
+[3.169s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/path.dsv
+[3.169s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.bash
+[3.169s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.sh
+[3.169s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.zsh
+[3.169s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.dsv
+[3.169s] -- Symlinking: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.dsv
+[3.175s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/packages/laser_to_pc
+[3.175s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/cmake/laser_to_pcConfig.cmake
+[3.176s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/cmake/laser_to_pcConfig-version.cmake
+[3.176s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.xml
+[3.177s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/laser_to_pc

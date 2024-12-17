@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target lslidar_driver_node[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[ 80%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[100%] Built target lslidar_driver_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_launch.py
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10.yaml
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10_1.yaml
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10_2.yaml
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+-- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/package.xml

@@ -1,0 +1,8 @@
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:[m[K In constructor ‘[01m[KLaserScanBroadcaster::LaserScanBroadcaster()[m[K’:
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:14:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmiliseconds[m[K’ is not a member of ‘[01m[Kstd::chrono[m[K’; did you mean ‘[01m[Kmilliseconds[m[K’?
+   14 |             timer_ = this->create_wall_timer(std::chrono::[01;31m[Kmiliseconds[m[K(100), std::bind(&LaserScanBroadcaster::publishScan, this));
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+      |                                                           [32m[Kmilliseconds[m[K
+gmake[2]: *** [CMakeFiles/fixed_map_rviz.dir/build.make:76: CMakeFiles/fixed_map_rviz.dir/src/fixed_map_rviz.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fixed_map_rviz.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

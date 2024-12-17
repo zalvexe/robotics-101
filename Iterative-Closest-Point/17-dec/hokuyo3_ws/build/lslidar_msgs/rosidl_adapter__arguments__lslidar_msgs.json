@@ -1,0 +1,10 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/home/zalv/hokuyo3_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarDifop.msg",
+    "/home/zalv/hokuyo3_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarPacket.msg",
+    "/home/zalv/hokuyo3_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarPoint.msg",
+    "/home/zalv/hokuyo3_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarScan.msg",
+    "/home/zalv/hokuyo3_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarSweep.msg"
+  ]
+}

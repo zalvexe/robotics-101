@@ -1,0 +1,141 @@
+[0.020s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[0.046s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.172s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.205s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.208s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.213s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.263s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.265s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.388s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.411s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.431s] -- Checking for module 'eigen3'
+[0.444s] --   Found eigen3, version 3.4.0
+[0.476s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.476s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.496s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.508s] -- Checking for module 'flann'
+[0.520s] --   Found flann, version 1.9.1
+[0.557s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.557s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.585s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.589s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.750s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.750s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.755s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.762s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.778s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.793s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.889s] -- Found X11: /usr/include   
+[0.890s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.957s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.959s] -- Looking for gethostbyname
+[1.016s] -- Looking for gethostbyname - found
+[1.017s] -- Looking for connect
+[1.071s] -- Looking for connect - found
+[1.071s] -- Looking for remove
+[1.130s] -- Looking for remove - found
+[1.131s] -- Looking for shmat
+[1.190s] -- Looking for shmat - found
+[1.190s] -- Looking for IceConnectionNumber in ICE
+[1.249s] -- Looking for IceConnectionNumber in ICE - found
+[1.330s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.331s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.333s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.334s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.342s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.345s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.347s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.353s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.425s] -- Checking for module 'libusb-1.0'
+[1.439s] --   Found libusb-1.0, version 1.0.25
+[1.472s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.473s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.473s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.527s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.527s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.527s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.634s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.641s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.647s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.746s] -- Found Qhull version 8.0.2
+[1.844s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.936s] -- looking for PCL_COMMON
+[1.937s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.937s] -- looking for PCL_KDTREE
+[1.938s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.938s] -- looking for PCL_OCTREE
+[1.938s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.938s] -- looking for PCL_SEARCH
+[1.938s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.939s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.939s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.939s] -- looking for PCL_FILTERS
+[1.939s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.939s] -- looking for PCL_2D
+[1.939s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.940s] -- looking for PCL_GEOMETRY
+[1.940s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.940s] -- looking for PCL_IO
+[1.940s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.940s] -- looking for PCL_FEATURES
+[1.940s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.940s] -- looking for PCL_ML
+[1.940s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.940s] -- looking for PCL_SEGMENTATION
+[1.941s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.941s] -- looking for PCL_VISUALIZATION
+[1.941s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.941s] -- looking for PCL_SURFACE
+[1.942s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.942s] -- looking for PCL_REGISTRATION
+[1.943s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.943s] -- looking for PCL_KEYPOINTS
+[1.943s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.943s] -- looking for PCL_TRACKING
+[1.943s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.943s] -- looking for PCL_RECOGNITION
+[1.944s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.944s] -- looking for PCL_STEREO
+[1.944s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.945s] -- looking for PCL_APPS
+[1.945s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.945s] -- looking for PCL_IN_HAND_SCANNER
+[1.945s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.945s] -- looking for PCL_MODELER
+[1.946s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.946s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.946s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.946s] -- looking for PCL_OUTOFCORE
+[1.946s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.946s] -- looking for PCL_PEOPLE
+[1.947s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.948s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[1.997s] -- Configuring done
+[2.005s] -- Generating done
+[2.006s] -- Build files have been written to: /home/zalv/hokuyo3_ws/build/laser_to_pc
+[2.036s] [35m[1mConsolidate compiler generated dependencies of target laser_to_pointcloud[0m
+[2.049s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o[0m
+[3.583s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl[m[K’ does not name a type
+[3.583s]    25 |     [01;31m[Kpcl[m[K::PointCloud<pcl::PointXYZ> pcl_cloud;
+[3.583s]       |     [01;31m[K^~~[m[K
+[3.584s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl[m[K’ does not name a type
+[3.584s]    26 |     [01;31m[Kpcl[m[K::fromROSMsg(cloud_out, pcl_cloud);
+[3.584s]       |     [01;31m[K^~~[m[K
+[3.584s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:28:23:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+[3.584s]    28 |     std::ofstream ofs([01;31m[K"laser_pointcloud.txt"[m[K);
+[3.584s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.584s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:28:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[3.584s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:29:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[3.584s]    29 |     [01;31m[Kif[m[K(ofs.is_open())
+[3.584s]       |     [01;31m[K^~[m[K
+[3.585s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:38:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[3.585s]    38 |     [01;31m[Kelse[m[K{
+[3.585s]       |     [01;31m[K^~~~[m[K
+[5.106s] gmake[2]: *** [CMakeFiles/laser_to_pointcloud.dir/build.make:76: CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o] Error 1
+[5.106s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_to_pointcloud.dir/all] Error 2
+[5.106s] gmake: *** [Makefile:146: all] Error 2
+[5.108s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22

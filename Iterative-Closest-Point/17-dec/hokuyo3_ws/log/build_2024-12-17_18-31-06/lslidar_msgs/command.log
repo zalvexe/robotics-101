@@ -1,0 +1,1 @@
+Invoking command in '/home/zalv/hokuyo3_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/lslidar_msgs -- -j22 -l22

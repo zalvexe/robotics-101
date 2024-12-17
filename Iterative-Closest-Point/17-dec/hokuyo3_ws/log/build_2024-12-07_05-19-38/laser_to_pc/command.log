@@ -1,0 +1,4 @@
+Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '0': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/laser_to_pc
+Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '0': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/laser_to_pc

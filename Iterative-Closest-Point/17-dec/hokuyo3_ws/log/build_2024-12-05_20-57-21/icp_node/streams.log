@@ -1,0 +1,87 @@
+[0.010s] Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/icp_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/icp_node
+[0.025s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.148s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.193s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.210s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.245s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.248s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.255s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.313s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.315s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.392s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.419s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.474s] -- Looking for pthread.h
+[0.536s] -- Looking for pthread.h - found
+[0.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.599s] -- Found Threads: TRUE  
+[0.656s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.680s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.715s] -- Checking for module 'eigen3'
+[0.731s] --   Found eigen3, version 3.4.0
+[0.767s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.767s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.802s] -- Checking for module 'flann'
+[0.816s] --   Found flann, version 1.9.1
+[0.855s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.855s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.890s] -- Checking for module 'libusb-1.0'
+[1.905s] --   Found libusb-1.0, version 1.0.25
+[1.944s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.945s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.010s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.151s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.159s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.167s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.309s] -- Found Qhull version 8.0.2
+[2.452s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.577s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.578s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.578s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.579s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.580s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.580s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.581s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.581s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.582s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.583s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.583s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.584s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.585s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.586s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.586s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.587s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.588s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.588s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.589s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.590s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.591s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.591s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.592s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.592s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.593s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.666s] -- Configuring done
+[2.725s] -- Generating done
+[2.726s] -- Build files have been written to: /home/zalv/hokuyo3_ws/build/icp_node
+[2.739s] Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/icp_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/icp_node
+[2.742s] Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+[2.804s] [ 25%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/icp_node.cpp.o[0m
+[2.805s] [ 50%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/map_builder.cpp.o[0m
+[2.830s] [ 75%] [32m[1mLinking CXX executable map_builder_node[0m
+[2.872s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.872s] (.text+0x1b): undefined reference to `main'
+[2.873s] collect2: error: ld returned 1 exit status
+[2.876s] gmake[2]: *** [CMakeFiles/map_builder_node.dir/build.make:97: map_builder_node] Error 1
+[2.876s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/map_builder_node.dir/all] Error 2
+[2.876s] gmake[1]: *** Waiting for unfinished jobs....
+[2.955s] [01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/icp_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.hpp: No such file or directory
+[2.955s]     3 | #include [01;31m[K<pcl_conversions/pcl_conversions.hpp>[m[K
+[2.955s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.955s] compilation terminated.
+[2.956s] gmake[2]: *** [CMakeFiles/icp_node.dir/build.make:76: CMakeFiles/icp_node.dir/src/icp_node.cpp.o] Error 1
+[2.956s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/icp_node.dir/all] Error 2
+[2.957s] gmake: *** [Makefile:146: all] Error 2
+[2.959s] Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22

@@ -1,0 +1,102 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_<COMPONENTS>
+-- Could NOT find PCL_<COMPONENTS> (missing: PCL_<COMPONENTS>_LIBRARY PCL_<COMPONENTS>_INCLUDE_DIR) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zalv/hokuyo3_ws/build/laser_to_pc
+[35m[1mConsolidate compiler generated dependencies of target laser_to_pointcloud[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/fixed_map_rviz.dir/src/fixed_map_rviz.cpp.o[0m
+[ 75%] Built target laser_to_pointcloud
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:12:9:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLaserScanBroadcoaster[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   12 |         [01;31m[KLaserScanBroadcoaster[m[K() : Node("laser_scan_broadcaster"){
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:[m[K In member function ‘[01m[Kint LaserScanToPointCloud::LaserScanBroadcoaster()[m[K’:
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:12:35:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   12 |         LaserScanBroadcoaster() : [01;31m[KNode[m[K("laser_scan_broadcaster"){
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope
+   13 |             [01;31m[Kscan_pub[m[K = this->create_publisher<sensor_msgs::msg::LaserScan>("scan", 10);
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   14 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:[m[K In member function ‘[01m[Kvoid LaserScanToPointCloud::publishScan()[m[K’:
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:84:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope
+   84 |            [01;31m[Kscan_pub[m[K->publish(*scan_msg);
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:[m[K At global scope:
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:87:9:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Publisher<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+   87 |         [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::LaserScan>::SharedPtr scan_pub;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:89:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   89 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:91:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+   91 |     rclcpp::init([01;31m[Kargc[m[K, argv);
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:91:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   91 |     rclcpp::init(argc, [01;31m[Kargv[m[K);
+      |                        [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = LaserScanToPointCloud; _Args = {}; _Tp = LaserScanToPointCloud][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = LaserScanToPointCloud; _Args = {}; _Tp = LaserScanToPointCloud; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<LaserScanToPointCloud>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = LaserScanToPointCloud; _Alloc = std::allocator<LaserScanToPointCloud>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = LaserScanToPointCloud; _Alloc = std::allocator<LaserScanToPointCloud>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<LaserScanToPointCloud>; _Args = {}; _Tp = LaserScanToPointCloud; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<LaserScanToPointCloud>; _Args = {}; _Tp = LaserScanToPointCloud][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = LaserScanToPointCloud; _Alloc = std::allocator<LaserScanToPointCloud>; _Args = {}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = LaserScanToPointCloud; _Args = {}][m[K’
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:92:57:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KLaserScanToPointCloud::LaserScanToPointCloud()[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[KLaserScanToPointCloud::LaserScanToPointCloud()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+    9 | class [01;36m[KLaserScanToPointCloud[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:9:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+ 1294 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+  101 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+   89 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/fixed_map_rviz.dir/build.make:76: CMakeFiles/fixed_map_rviz.dir/src/fixed_map_rviz.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fixed_map_rviz.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

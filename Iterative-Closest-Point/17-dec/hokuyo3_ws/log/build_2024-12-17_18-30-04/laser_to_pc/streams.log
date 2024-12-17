@@ -1,0 +1,53 @@
+[0.021s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/laser_to_pc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/laser_to_pc
+[0.036s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.158s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.176s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.211s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.214s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.221s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.271s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.272s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.351s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.395s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.418s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.426s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.452s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.477s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.796s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.805s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.942s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.948s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.956s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.104s] -- Found Qhull version 8.0.2
+[1.234s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.346s] -- looking for PCL_<COMPONENTS>
+[1.346s] -- Could NOT find PCL_<COMPONENTS> (missing: PCL_<COMPONENTS>_LIBRARY PCL_<COMPONENTS>_INCLUDE_DIR) 
+[1.409s] -- Configuring done
+[1.453s] -- Generating done
+[1.454s] -- Build files have been written to: /home/zalv/hokuyo3_ws/build/laser_to_pc
+[1.465s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/laser_to_pc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/laser_to_pc
+[1.466s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[1.511s] [35m[1mConsolidate compiler generated dependencies of target laser_to_pointcloud[0m
+[1.521s] [ 25%] [32mBuilding CXX object CMakeFiles/fixed_map_rviz.dir/src/fixed_map_rviz.cpp.o[0m
+[1.535s] [ 75%] Built target laser_to_pointcloud
+[1.639s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.639s]                  from [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/fixed_map_rviz.cpp:1[m[K:
+[1.639s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Krcl_interfaces/msg/set_parameters_result.hpp: No such file or directory
+[1.640s]    28 | #include [01;31m[K"rcl_interfaces/msg/set_parameters_result.hpp"[m[K
+[1.640s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.640s] compilation terminated.
+[1.640s] gmake[2]: *** [CMakeFiles/fixed_map_rviz.dir/build.make:76: CMakeFiles/fixed_map_rviz.dir/src/fixed_map_rviz.cpp.o] Error 1
+[1.641s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fixed_map_rviz.dir/all] Error 2
+[1.641s] gmake: *** [Makefile:146: all] Error 2
+[1.646s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22

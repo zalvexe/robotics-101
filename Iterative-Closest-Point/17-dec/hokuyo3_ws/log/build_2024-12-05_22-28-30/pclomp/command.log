@@ -1,0 +1,3 @@
+Invoking command in '/home/zalv/hokuyo3_ws/build/pclomp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/pclomp -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/pclomp
+Invoked command in '/home/zalv/hokuyo3_ws/build/pclomp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/pclomp -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/pclomp
+Invoking command in '/home/zalv/hokuyo3_ws/build/pclomp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/pclomp -- -j22 -l22

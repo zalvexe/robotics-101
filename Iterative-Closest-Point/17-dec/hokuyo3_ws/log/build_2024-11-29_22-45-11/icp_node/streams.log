@@ -1,0 +1,116 @@
+[0.014s] Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/icp_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/icp_node
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.367s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.404s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.421s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.462s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.464s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.468s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.506s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.507s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.595s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.616s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.650s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.654s] -- Looking for pthread.h
+[0.709s] -- Looking for pthread.h - found
+[0.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.770s] -- Found Threads: TRUE  
+[0.798s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.814s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.854s] -- Checking for module 'eigen3'
+[0.872s] --   Found eigen3, version 3.4.0
+[0.909s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.909s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.937s] -- Checking for module 'flann'
+[0.952s] --   Found flann, version 1.9.1
+[0.993s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.993s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.805s] -- Checking for module 'libusb-1.0'
+[1.819s] --   Found libusb-1.0, version 1.0.25
+[1.855s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.856s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.914s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.013s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.018s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.024s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.129s] -- Found Qhull version 8.0.2
+[2.216s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.301s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.301s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.302s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.302s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.303s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.303s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.303s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.303s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.304s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.304s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.305s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.305s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.306s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.307s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.307s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.308s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.308s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.309s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.309s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.310s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.310s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.310s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.310s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.311s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.311s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.313s] [33mCMake Warning (dev) at CMakeLists.txt:8 (find_package):
+[2.313s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.313s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.313s]   command to set the policy and suppress this warning.
+[2.313s] 
+[2.313s]   CMake variable PCL_ROOT is set to:
+[2.313s] 
+[2.313s]     /usr
+[2.313s] 
+[2.313s]   For compatibility, CMake is ignoring the variable.
+[2.313s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.313s] [0m
+[2.368s] -- Configuring done
+[2.410s] -- Generating done
+[2.411s] -- Build files have been written to: /home/zalv/hokuyo3_ws/build/icp_node
+[2.421s] Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/icp_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/icp_node
+[2.424s] Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+[2.472s] [ 50%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/icp_node.cpp.o[0m
+[5.441s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.441s]                  from [01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/icp_node.cpp:1[m[K:
+[5.441s] [01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/icp_node.cpp:[m[K In member function ‘[01m[Kvoid ICPNode::pointcloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.441s] [01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/icp_node.cpp:31:202:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Eigen::WithFormat<Eigen::Matrix<float, 4, 4> >[m[K’ has no member named ‘[01m[Kc_str[m[K’
+[5.441s]    31 | rmat(Eigen::IOFormat(Eigen::StreamPrecision, Eigen::DontAlignCols, " ", "\n", "", "", "[", "]")).[01;31m[Kc_str[m[K());
+[5.441s]       |                                                                                                  [01;31m[K^~~~~[m[K
+[5.441s] 
+[8.912s] gmake[2]: *** [CMakeFiles/icp_node.dir/build.make:76: CMakeFiles/icp_node.dir/src/icp_node.cpp.o] Error 1
+[8.913s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/icp_node.dir/all] Error 2
+[8.913s] gmake: *** [Makefile:146: all] Error 2
+[8.918s] Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
