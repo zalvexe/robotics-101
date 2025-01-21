@@ -1,0 +1,65 @@
+[0.019s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target laser_to_pointcloud[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o[0m
+[3.311s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.312s]                  from [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:1[m[K:
+[3.312s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:[m[K In member function ‘[01m[Kvoid LaserScanToPointCloud::laserCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.312s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:24:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.312s]    24 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"angle_min: %f"[m[K, [32m[K"angle_max: %f"[m[K, "angle_increment: %f", msg->angle_min, msg->angle_max, msg->angle_increment);
+[3.312s]       |                                         [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+[3.312s]       |                                                          [32m[K|[m[K
+[3.312s]       |                                                          [32m[Kconst char*[m[K
+[3.312s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:24:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.312s]    24 |         RCLCPP_INFO(this->get_logger(), "angle_min: [01;36m[K%f[m[K", "angle_max: %f", "angle_increment: %f", msg->angle_min, msg->angle_max, msg->angle_increment);
+[3.312s]       |                                                     [01;36m[K~^[m[K
+[3.312s]       |                                                      [01;36m[K|[m[K
+[3.312s]       |                                                      [01;36m[Kdouble[m[K
+[3.312s]       |                                                     [32m[K%s[m[K
+[3.313s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.313s]                  from [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:1[m[K:
+[3.313s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:24:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.313s]    24 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"angle_min: %f"[m[K, "angle_max: %f", "angle_increment: %f", msg->angle_min, msg->angle_max, msg->angle_increment);
+[3.313s]       |                                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.843s] [100%] [32m[1mLinking CXX executable laser_to_pointcloud[0m
+[8.367s] [100%] Built target laser_to_pointcloud
+[8.379s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[8.413s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/laser_to_pc
+[8.419s] -- Install configuration: ""
+[8.419s] -- Execute custom install script
+[8.420s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/lib/laser_to_pc/laser_to_pointcloud
+[8.420s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/package_run_dependencies/laser_to_pc
+[8.420s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/parent_prefix_path/laser_to_pc
+[8.420s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/ament_prefix_path.sh
+[8.420s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/ament_prefix_path.dsv
+[8.421s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/path.sh
+[8.421s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/path.dsv
+[8.421s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.bash
+[8.421s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.sh
+[8.421s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.zsh
+[8.421s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.dsv
+[8.421s] -- Symlinking: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.dsv
+[8.428s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/packages/laser_to_pc
+[8.428s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/cmake/laser_to_pcConfig.cmake
+[8.428s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/cmake/laser_to_pcConfig-version.cmake
+[8.428s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.xml
+[8.430s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/laser_to_pc

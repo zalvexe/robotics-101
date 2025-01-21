@@ -1,0 +1,11 @@
+[0.015s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[0.036s] -- Configuring incomplete, errors occurred!
+[0.036s] See also "/home/zalv/hokuyo3_ws/build/laser_to_pc/CMakeFiles/CMakeOutput.log".
+[0.036s] [31mCMake Error at CMakeLists.txt:83:
+[0.036s]   Parse error.  Expected "(", got newline with text "
+[0.036s] 
+[0.036s]   ".
+[0.036s] 
+[0.036s] [0m
+[0.037s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.039s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22

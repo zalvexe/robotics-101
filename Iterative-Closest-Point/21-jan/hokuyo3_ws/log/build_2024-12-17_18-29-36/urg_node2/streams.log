@@ -1,0 +1,9 @@
+[0.031s] Invoking command in '/home/zalv/hokuyo3_ws/build/urg_node2': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/urg_node2 -- -j22 -l22
+[0.084s] [ 45%] Built target urg_c
+[0.086s] [ 55%] Built target gtest_main
+[0.086s] [ 65%] Built target gtest
+[0.094s] [ 75%] Built target urg_node2_node
+[0.116s] [ 85%] Built target urg_node2
+[0.118s] [100%] Built target urg_node2_test
+[0.129s] Invoked command in '/home/zalv/hokuyo3_ws/build/urg_node2' returned '0': /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/urg_node2 -- -j22 -l22
+[0.185s] Invoking command in '/home/zalv/hokuyo3_ws/build/urg_node2': /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/urg_node2

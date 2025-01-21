@@ -1,0 +1,42 @@
+[0.018s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[0.080s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.254s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.286s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.288s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.295s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.350s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.352s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.444s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.503s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.529s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.538s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.564s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.593s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.897s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.904s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.012s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.018s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.026s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.127s] -- Found Qhull version 8.0.2
+[1.231s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.342s] -- looking for PCL_<COMPONENTS>
+[1.343s] -- Could NOT find PCL_<COMPONENTS> (missing: PCL_<COMPONENTS>_LIBRARY PCL_<COMPONENTS>_INCLUDE_DIR) 
+[1.407s] -- Configuring done
+[1.460s] -- Generating done
+[1.462s] -- Build files have been written to: /home/zalv/hokuyo3_ws/build/laser_to_pc
+[1.496s] [35m[1mConsolidate compiler generated dependencies of target fixed_map_rviz[0m
+[1.499s] [35m[1mConsolidate compiler generated dependencies of target laser_to_pointcloud[0m
+[1.506s] [ 16%] [32mBuilding CXX object CMakeFiles/wr_lidar.dir/src/wr_lidar.cpp.o[0m
+[1.512s] [ 50%] Built target fixed_map_rviz
+[1.526s] [ 83%] Built target laser_to_pointcloud
+[1.673s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+[1.674s]     6 | #include [01;31m[K<serial/serial.h>[m[K // For serial communication
+[1.674s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.674s] compilation terminated.
+[1.675s] gmake[2]: *** [CMakeFiles/wr_lidar.dir/build.make:76: CMakeFiles/wr_lidar.dir/src/wr_lidar.cpp.o] Error 1
+[1.676s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/wr_lidar.dir/all] Error 2
+[1.677s] gmake: *** [Makefile:146: all] Error 2
+[1.680s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22

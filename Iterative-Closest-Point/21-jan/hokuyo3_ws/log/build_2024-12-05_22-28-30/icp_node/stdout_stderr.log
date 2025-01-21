@@ -1,0 +1,68 @@
+[35m[1mConsolidate compiler generated dependencies of target icp_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/scan_localizer2.dir/src/scan_localizer2.cpp.o[0m
+[ 75%] Built target icp_node
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:[m[K In member function ‘[01m[Kvoid ScanLocalizer::NDTMatching(pcl::PointCloud<pcl::PointXYZI>::Ptr&, pcl::PointCloud<pcl::PointXYZI>::Ptr&)[m[K’:
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:260:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kpclomp[m[K’ was not declared in this scope; did you mean ‘[01m[Kpclose[m[K’?
+  260 |     boost::shared_ptr<[01;31m[Kpclomp[m[K::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>> ndt(new pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>());
+      |                       [01;31m[K^~~~~~[m[K
+      |                       [32m[Kpclose[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:260:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  260 |     boost::shared_ptr<pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI[01;31m[K>>[m[K ndt(new pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>());
+      |                                                                                          [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:260:101:[m[K [01;31m[Kerror: [m[K‘[01m[Kpclomp[m[K’ does not name a type
+  260 |     boost::shared_ptr<pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>> ndt(new [01;31m[Kpclomp[m[K::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>());
+      |                                                                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:260:168:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  260 |     boost::shared_ptr<pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>> ndt(new pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI[01;31m[K>[m[K());
+      |                                                                                                                                                                        [01;31m[K^[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:260:170:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  260 |     boost::shared_ptr<pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>> ndt(new pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>([01;31m[K)[m[K);
+      |                                                                                                                                                                          [01;31m[K^[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:260:171:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  260 |     boost::shared_ptr<pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>> ndt(new pclomp::NormalDistributionsTransform<pcl::PointXYZI, pcl::PointXYZI>()[01;31m[K)[m[K;
+      |                                                                                                                                                                           [01;31m[K^[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:261:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  261 |     ndt[01;31m[K->[m[KsetInputSource(InputData);
+      |        [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:262:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  262 |     ndt[01;31m[K->[m[KsetInputTarget(TargetData);
+      |        [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:263:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  263 |     ndt[01;31m[K->[m[KsetTransformationEpsilon(0.01);
+      |        [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:264:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  264 |     ndt[01;31m[K->[m[KsetMaximumIterations(32);
+      |        [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:265:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  265 |     ndt[01;31m[K->[m[KsetResolution(1.0);
+      |        [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:266:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  266 |     ndt[01;31m[K->[m[KsetNeighborhoodSearchMethod(pclomp::DIRECT7);
+      |        [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:266:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kpclomp[m[K’ is not a class, namespace, or enumeration
+  266 |     ndt->setNeighborhoodSearchMethod([01;31m[Kpclomp[m[K::DIRECT7);
+      |                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:267:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  267 |     ndt[01;31m[K->[m[KsetNumThreads(5);
+      |        [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:270:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  270 |     ndt[01;31m[K->[m[Kalign(*output_cloud, init_guess_);
+      |        [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:272:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  272 |     if (ndt[01;31m[K->[m[KhasConverged())
+      |            [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:275:44:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  275 |                   << "The score is " << ndt[01;31m[K->[m[KgetFitnessScore() << std::endl;
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:277:25:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  277 |         std::cout << ndt[01;31m[K->[m[KgetFinalTransformation() << std::endl;
+      |                         [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:284:40:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  284 |     init_guess_.block<3, 3>(0, 0) = ndt[01;31m[K->[m[KgetFinalTransformation().block<3, 3>(0, 0);
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/icp_node/src/scan_localizer2.cpp:285:40:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  285 |     init_guess_.block<3, 1>(0, 3) = ndt[01;31m[K->[m[KgetFinalTransformation().block<3, 1>(0, 3);
+      |                                        [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/scan_localizer2.dir/build.make:76: CMakeFiles/scan_localizer2.dir/src/scan_localizer2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/scan_localizer2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

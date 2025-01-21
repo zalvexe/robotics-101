@@ -1,0 +1,10 @@
+[100%] Built target registration
+-- Install configuration: ""
+-- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/libregistration.so
+-- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/gicp_omp.h
+-- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/ndt_omp.h
+-- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/voxel_grid_covariance_omp.h
+-- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-targets.cmake
+-- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-targets-noconfig.cmake
+-- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-config.cmake
+-- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-config-version.cmake

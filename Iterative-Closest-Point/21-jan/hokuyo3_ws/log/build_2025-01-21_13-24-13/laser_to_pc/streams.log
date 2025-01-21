@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[0.136s] [ 16%] [32mBuilding CXX object CMakeFiles/wr_lidar_eth.dir/src/wr_lidar_eth.cpp.o[0m
+[0.139s] [ 33%] [32mBuilding CXX object CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o[0m
+[0.139s] [ 66%] Built target fixed_map_rviz
+[3.791s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:[m[K In member function ‘[01m[Kvoid LaserScanToPointCloud::laserCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.792s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:65:44:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud_in[m[K’
+[3.792s]    65 |         pcl::PointCloud<pcl::PointXYZ> Ptr [01;31m[Kcloud_in[m[K(new pcl::PointCloud<pcl::PointXYZ>(pcl_cloud));
+[3.792s]       |                                            [01;31m[K^~~~~~~~[m[K
+[3.792s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:66:44:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud_out_icp[m[K’
+[3.792s]    66 |         pcl::PointCloud<pcl::PointXYZ> Ptr [01;31m[Kcloud_out_icp[m[K(new pcl::PointCloud<pcl::PointXYZ>);
+[3.792s]       |                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[3.863s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:69:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_in[m[K’ was not declared in this scope; did you mean ‘[01m[Kcloud_out[m[K’?
+[3.863s]    69 |         icp.setInputSource([01;31m[Kcloud_in[m[K);
+[3.864s]       |                            [01;31m[K^~~~~~~~[m[K
+[3.864s]       |                            [32m[Kcloud_out[m[K
+[3.868s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:79:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput[m[K’ was not declared in this scope
+[3.868s]    79 |         [01;31m[Koutput[m[K.header.frame_id = "laser_frame";
+[3.869s]       |         [01;31m[K^~~~~~[m[K
+[4.580s] [ 83%] [32m[1mLinking CXX executable wr_lidar_eth[0m
+[4.800s] [ 83%] Built target wr_lidar_eth
+[7.659s] gmake[2]: *** [CMakeFiles/laser_to_pointcloud.dir/build.make:76: CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o] Error 1
+[7.660s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/laser_to_pointcloud.dir/all] Error 2
+[7.660s] gmake: *** [Makefile:146: all] Error 2
+[7.663s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22

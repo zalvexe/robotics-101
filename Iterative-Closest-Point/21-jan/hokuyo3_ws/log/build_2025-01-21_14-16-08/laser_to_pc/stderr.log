@@ -1,0 +1,10 @@
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/icp_publish.cpp:[m[K In constructor ‘[01m[KPublishICP::PublishICP()[m[K’:
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/icp_publish.cpp:18:36:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScanToPointCloud[m[K’ has not been declared
+   18 |             "scan", 10, std::bind(&[01;31m[KLaserScanToPointCloud[m[K::laserCallback, this, std::placeholders::_1));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/icp_publish.cpp:20:54:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScanToPointCloud[m[K’ has not been declared
+   20 |             "laser_scan_broadcaster", 10, std::bind(&[01;31m[KLaserScanToPointCloud[m[K::fixedMapCallback, this, std::placeholders::_1));
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/icp_publish.dir/build.make:76: CMakeFiles/icp_publish.dir/src/icp_publish.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/icp_publish.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

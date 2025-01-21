@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target wr_lidar_eth[0m
+[35m[1mConsolidate compiler generated dependencies of target laser_to_pointcloud[0m
+[ 33%] Built target fixed_map_rviz
+[ 66%] Built target wr_lidar_eth
+[ 83%] [32mBuilding CXX object CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o[0m
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:[m[K In member function ‘[01m[Kvoid LaserScanToPointCloud::laserCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:65:44:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud_in[m[K’
+   65 |         pcl::PointCloud<pcl::PointXYZ> Ptr [01;31m[Kcloud_in[m[K(new pcl::PointCloud<pcl::PointXYZ>(pcl_cloud));
+      |                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:66:44:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud_out_icp[m[K’
+   66 |         pcl::PointCloud<pcl::PointXYZ> Ptr [01;31m[Kcloud_out_icp[m[K(new pcl::PointCloud<pcl::PointXYZ>);
+      |                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/laser_to_pointcloud.cpp:69:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_in[m[K’ was not declared in this scope; did you mean ‘[01m[Kcloud_out[m[K’?
+   69 |         icp.setInputSource([01;31m[Kcloud_in[m[K);
+      |                            [01;31m[K^~~~~~~~[m[K
+      |                            [32m[Kcloud_out[m[K
+gmake[2]: *** [CMakeFiles/laser_to_pointcloud.dir/build.make:76: CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/laser_to_pointcloud.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

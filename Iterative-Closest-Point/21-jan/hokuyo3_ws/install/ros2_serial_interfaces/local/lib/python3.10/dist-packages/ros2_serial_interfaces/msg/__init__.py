@@ -1,0 +1,1 @@
+/home/zalv/hokuyo3_ws/build/ros2_serial_interfaces/rosidl_generator_py/ros2_serial_interfaces/msg/__init__.py

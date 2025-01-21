@@ -1,0 +1,51 @@
+[0.009s] Invoking command in '/home/zalv/hokuyo3_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/serial
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.272s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.500s] -- Configuring done
+[0.502s] -- Generating done
+[0.503s] -- Build files have been written to: /home/zalv/hokuyo3_ws/build/serial
+[0.508s] Invoked command in '/home/zalv/hokuyo3_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/serial
+[0.509s] Invoking command in '/home/zalv/hokuyo3_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/serial -- -j22 -l22
+[0.575s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.575s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.577s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.945s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[0.979s] [100%] Built target serial
+[0.988s] Invoked command in '/home/zalv/hokuyo3_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/serial -- -j22 -l22
+[1.033s] Invoking command in '/home/zalv/hokuyo3_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/serial
+[1.037s] -- Install configuration: ""
+[1.037s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/environment/library_path.sh
+[1.037s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/environment/library_path.dsv
+[1.037s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/lib/libserial.a
+[1.038s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/include/serial/serial.h
+[1.038s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/include/serial/v8stdint.h
+[1.038s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.038s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.038s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.038s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.038s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/environment/path.sh
+[1.038s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/environment/path.dsv
+[1.038s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/local_setup.bash
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/local_setup.sh
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/local_setup.zsh
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/local_setup.dsv
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/package.dsv
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/ament_index/resource_index/packages/serial
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.039s] -- Installing: /home/zalv/hokuyo3_ws/install/serial/share/serial/package.xml
+[1.041s] Invoked command in '/home/zalv/hokuyo3_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/serial

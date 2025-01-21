@@ -1,0 +1,48 @@
+[0.036s] Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22
+[0.107s] [ 16%] [32mBuilding CXX object CMakeFiles/wr_lidar.dir/src/wr_lidar.cpp.o[0m
+[0.108s] [ 50%] Built target fixed_map_rviz
+[0.121s] [ 83%] Built target laser_to_pointcloud
+[2.074s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:100:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ does not name a type
+[2.075s]   100 |     [01;31m[Kserial[m[K::Serial serial_; // Serial connection
+[2.075s]       |     [01;31m[K^~~~~~[m[K
+[2.090s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:[m[K In constructor ‘[01m[KWS20PCDDriver::WS20PCDDriver()[m[K’:
+[2.091s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[2.091s]    20 |             [01;31m[Kserial_[m[K.setPort("/dev/ttyUSB0");
+[2.091s]       |             [01;31m[K^~~~~~~[m[K
+[2.091s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ has not been declared
+[2.091s]    22 |             [01;31m[Kserial[m[K::Timeout to = serial::Timeout::simpleTimeout(1000);
+[2.091s]       |             [01;31m[K^~~~~~[m[K
+[2.095s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:23:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kto[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[2.095s]    23 |             serial_.setTimeout([01;31m[Kto[m[K);
+[2.095s]       |                                [01;31m[K^~[m[K
+[2.095s]       |                                [32m[Ktm[m[K
+[2.096s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ does not name a type
+[2.096s]    26 |         catch ([01;31m[Kserial[m[K::IOException& e)
+[2.096s]       |                [01;31m[K^~~~~~[m[K
+[2.096s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:35:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[2.096s]    26 |         catch (serial::IOException[01;31m[K&[m[K e)
+[2.096s]       |                                   [01;31m[K^[m[K
+[2.096s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[2.097s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.097s]    26 |         catch [01;36m[K([m[Kserial::IOException& e)
+[2.097s]       |               [01;36m[K^[m[K
+[2.097s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+[2.097s]    26 |         catch (serial::IOException[01;31m[K&[m[K e)
+[2.097s]       |                                   [01;31m[K^[m[K
+[2.100s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+[2.100s]    26 |         catch (serial::IOException& [01;31m[Ke[m[K)
+[2.100s]       |                                     [01;31m[K^[m[K
+[2.105s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[2.105s]    32 |         if ([01;31m[Kserial_[m[K.isOpen())
+[2.105s]       |             [01;31m[K^~~~~~~[m[K
+[2.112s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:[m[K In member function ‘[01m[Kvoid WS20PCDDriver::publishScan()[m[K’:
+[2.112s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:46:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[2.112s]    46 |         if (![01;31m[Kserial_[m[K.isOpen())
+[2.112s]       |              [01;31m[K^~~~~~~[m[K
+[2.117s] [01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[2.117s]    54 |         [01;31m[Kserial_[m[K.readline(data);
+[2.117s]       |         [01;31m[K^~~~~~~[m[K
+[2.871s] gmake[2]: *** [CMakeFiles/wr_lidar.dir/build.make:76: CMakeFiles/wr_lidar.dir/src/wr_lidar.cpp.o] Error 1
+[2.871s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/wr_lidar.dir/all] Error 2
+[2.871s] gmake: *** [Makefile:146: all] Error 2
+[2.874s] Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/laser_to_pc -- -j22 -l22

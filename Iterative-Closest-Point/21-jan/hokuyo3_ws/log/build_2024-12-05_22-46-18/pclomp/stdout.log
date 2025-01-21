@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target registration[0m
+[100%] Built target registration
+-- Install configuration: ""
+-- Installing: /home/zalv/hokuyo3_ws/install/pclomp/lib/libregistration.so
+-- Installing: /home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/gicp_omp.h
+-- Installing: /home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/ndt_omp.h
+-- Installing: /home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/voxel_grid_covariance_omp.h
+-- Installing: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-targets.cmake
+-- Installing: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-targets-noconfig.cmake
+-- Installing: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-config.cmake
+-- Installing: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-config-version.cmake

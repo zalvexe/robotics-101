@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_serial_interfaces",
+  "non_idl_tuples": [
+    "/home/zalv/hokuyo3_ws/src/ros2_serial/ros2_serial_interfaces:msg/SerialString.msg"
+  ]
+}

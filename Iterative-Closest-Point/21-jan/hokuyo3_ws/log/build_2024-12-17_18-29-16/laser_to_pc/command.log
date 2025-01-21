@@ -1,0 +1,2 @@
+Invoking command in '/home/zalv/hokuyo3_ws/build/laser_to_pc': /usr/bin/cmake /home/zalv/hokuyo3_ws/src/laser_to_pc -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/laser_to_pc
+Invoked command in '/home/zalv/hokuyo3_ws/build/laser_to_pc' returned '1': /usr/bin/cmake /home/zalv/hokuyo3_ws/src/laser_to_pc -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/laser_to_pc

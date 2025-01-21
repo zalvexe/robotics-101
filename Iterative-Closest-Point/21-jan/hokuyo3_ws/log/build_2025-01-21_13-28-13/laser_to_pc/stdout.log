@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target wr_lidar_eth[0m
+[35m[1mConsolidate compiler generated dependencies of target laser_to_pointcloud[0m
+[ 33%] Built target fixed_map_rviz
+[ 66%] Built target wr_lidar_eth
+[ 83%] [32mBuilding CXX object CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o[0m

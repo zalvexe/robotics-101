@@ -1,0 +1,88 @@
+[0.015s] Invoking command in '/home/zalv/hokuyo3_ws/build/pclomp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/pclomp -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/pclomp
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.286s] -- Detecting CXX compile features - done
+[0.299s] -- Checking for module 'eigen3'
+[0.310s] --   Found eigen3, version 3.4.0
+[0.341s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.341s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.356s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.369s] -- Checking for module 'flann'
+[0.381s] --   Found flann, version 1.9.1
+[0.425s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.425s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.453s] -- Looking for pthread.h
+[0.519s] -- Looking for pthread.h - found
+[0.520s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.594s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.596s] -- Found Threads: TRUE  
+[0.597s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.602s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.723s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.723s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.726s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.733s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.745s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.753s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.836s] -- Found X11: /usr/include   
+[0.836s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.906s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.906s] -- Looking for gethostbyname
+[0.988s] -- Looking for gethostbyname - found
+[0.988s] -- Looking for connect
+[1.057s] -- Looking for connect - found
+[1.057s] -- Looking for remove
+[1.116s] -- Looking for remove - found
+[1.117s] -- Looking for shmat
+[1.181s] -- Looking for shmat - found
+[1.181s] -- Looking for IceConnectionNumber in ICE
+[1.241s] -- Looking for IceConnectionNumber in ICE - found
+[1.314s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.315s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.317s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.318s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.329s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.334s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.337s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.342s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.473s] -- looking for PCL_COMMON
+[1.474s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.474s] -- looking for PCL_OCTREE
+[1.475s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.475s] -- looking for PCL_KDTREE
+[1.475s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.475s] -- looking for PCL_SEARCH
+[1.476s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.476s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.476s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.476s] -- looking for PCL_FILTERS
+[1.476s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.477s] -- looking for PCL_2D
+[1.477s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.477s] -- looking for PCL_FEATURES
+[1.478s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.478s] -- looking for PCL_REGISTRATION
+[1.478s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.478s] -- Found PCL: pcl_common;pcl_octree;pcl_kdtree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_features;pcl_registration;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN (Required is at least version "1.7") 
+[1.751s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.829s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.829s] -- Found OpenMP: TRUE (found version "4.5")  
+[1.831s] -- Configuring done
+[1.838s] -- Generating done
+[1.839s] -- Build files have been written to: /home/zalv/hokuyo3_ws/build/pclomp
+[1.848s] Invoked command in '/home/zalv/hokuyo3_ws/build/pclomp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zalv/hokuyo3_ws/src/pclomp -DCMAKE_INSTALL_PREFIX=/home/zalv/hokuyo3_ws/install/pclomp
+[1.850s] Invoking command in '/home/zalv/hokuyo3_ws/build/pclomp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/pclomp -- -j22 -l22
+[1.902s] [ 25%] [32mBuilding CXX object CMakeFiles/registration.dir/src/voxel_grid_covariance_omp.cpp.o[0m
+[1.902s] [ 50%] [32mBuilding CXX object CMakeFiles/registration.dir/src/gicp_omp.cpp.o[0m
+[1.905s] [ 75%] [32mBuilding CXX object CMakeFiles/registration.dir/src/ndt_omp.cpp.o[0m
+[16.954s] [100%] [32m[1mLinking CXX shared library libregistration.so[0m
+[19.001s] [100%] Built target registration

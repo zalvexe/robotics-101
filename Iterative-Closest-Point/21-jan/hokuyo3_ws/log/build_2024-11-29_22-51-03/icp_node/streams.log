@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target icp_node[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/icp_node.cpp.o[0m
+[11.872s] [100%] [32m[1mLinking CXX executable icp_node[0m
+[12.868s] [100%] Built target icp_node
+[12.882s] Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/icp_node -- -j22 -l22
+[12.911s] Invoking command in '/home/zalv/hokuyo3_ws/build/icp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/icp_node
+[12.917s] -- Install configuration: ""
+[12.918s] -- Execute custom install script
+[12.918s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/lib/icp_node/icp_node
+[12.927s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/ament_index/resource_index/package_run_dependencies/icp_node
+[12.934s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/ament_index/resource_index/parent_prefix_path/icp_node
+[12.942s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/environment/ament_prefix_path.sh
+[12.949s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/environment/ament_prefix_path.dsv
+[12.955s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/environment/path.sh
+[12.963s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/environment/path.dsv
+[12.970s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/local_setup.bash
+[12.977s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/local_setup.sh
+[12.983s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/local_setup.zsh
+[12.991s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/local_setup.dsv
+[12.998s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.dsv
+[13.006s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/ament_index/resource_index/packages/icp_node
+[13.014s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/cmake/icp_nodeConfig.cmake
+[13.021s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/cmake/icp_nodeConfig-version.cmake
+[13.028s] -- Symlinking: /home/zalv/hokuyo3_ws/install/icp_node/share/icp_node/package.xml
+[13.037s] Invoked command in '/home/zalv/hokuyo3_ws/build/icp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/icp_node

@@ -1,0 +1,6 @@
+[ 45%] Built target urg_c
+[ 55%] Built target gtest_main
+[ 65%] Built target gtest
+[ 75%] Built target urg_node2_node
+[ 85%] Built target urg_node2
+[100%] Built target urg_node2_test

@@ -1,0 +1,31 @@
+[0.013s] Invoking command in '/home/zalv/hokuyo3_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/zalv/hokuyo3_ws/install/lslidar_msgs:/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/pclomp:/home/zalv/hokuyo3_ws/install/lslidar_driver:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble LD_LIBRARY_PATH=/home/zalv/hokuyo3_ws/install/lslidar_msgs/lib:/home/zalv/hokuyo3_ws/install/urg_node2/lib:/home/zalv/hokuyo3_ws/install/pclomp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/lslidar_driver -- -j22 -l22
+[0.078s] [100%] Built target lslidar_driver_node
+[0.087s] Invoked command in '/home/zalv/hokuyo3_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/zalv/hokuyo3_ws/install/lslidar_msgs:/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/pclomp:/home/zalv/hokuyo3_ws/install/lslidar_driver:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble LD_LIBRARY_PATH=/home/zalv/hokuyo3_ws/install/lslidar_msgs/lib:/home/zalv/hokuyo3_ws/install/urg_node2/lib:/home/zalv/hokuyo3_ws/install/pclomp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/lslidar_driver -- -j22 -l22
+[0.116s] Invoking command in '/home/zalv/hokuyo3_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/zalv/hokuyo3_ws/install/lslidar_msgs:/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/pclomp:/home/zalv/hokuyo3_ws/install/lslidar_driver:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble LD_LIBRARY_PATH=/home/zalv/hokuyo3_ws/install/lslidar_msgs/lib:/home/zalv/hokuyo3_ws/install/urg_node2/lib:/home/zalv/hokuyo3_ws/install/pclomp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/lslidar_driver
+[0.125s] -- Install configuration: ""
+[0.127s] -- Execute custom install script
+[0.127s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[0.127s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_launch.py
+[0.127s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10.yaml
+[0.127s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10_1.yaml
+[0.127s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/params/lsx10_2.yaml
+[0.127s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[0.127s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[0.128s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[0.128s] -- Symlinking: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[0.134s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[0.134s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.134s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.134s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[0.134s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[0.134s] -- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[0.137s] Invoked command in '/home/zalv/hokuyo3_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/zalv/hokuyo3_ws/install/lslidar_msgs:/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/pclomp:/home/zalv/hokuyo3_ws/install/lslidar_driver:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble LD_LIBRARY_PATH=/home/zalv/hokuyo3_ws/install/lslidar_msgs/lib:/home/zalv/hokuyo3_ws/install/urg_node2/lib:/home/zalv/hokuyo3_ws/install/pclomp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/lslidar_driver

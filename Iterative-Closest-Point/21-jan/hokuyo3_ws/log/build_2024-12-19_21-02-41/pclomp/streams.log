@@ -1,0 +1,14 @@
+[0.036s] Invoking command in '/home/zalv/hokuyo3_ws/build/pclomp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/pclomp -- -j22 -l22
+[0.128s] [100%] Built target registration
+[0.142s] Invoked command in '/home/zalv/hokuyo3_ws/build/pclomp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zalv/hokuyo3_ws/build/pclomp -- -j22 -l22
+[0.184s] Invoking command in '/home/zalv/hokuyo3_ws/build/pclomp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/pclomp
+[0.193s] -- Install configuration: ""
+[0.193s] -- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/libregistration.so
+[0.193s] -- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/gicp_omp.h
+[0.193s] -- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/ndt_omp.h
+[0.193s] -- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/include/pclomp/voxel_grid_covariance_omp.h
+[0.194s] -- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-targets.cmake
+[0.194s] -- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-targets-noconfig.cmake
+[0.194s] -- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-config.cmake
+[0.194s] -- Up-to-date: /home/zalv/hokuyo3_ws/install/pclomp/lib/cmake/pclomp/pclomp-config-version.cmake
+[0.196s] Invoked command in '/home/zalv/hokuyo3_ws/build/pclomp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zalv/hokuyo3_ws/build/pclomp

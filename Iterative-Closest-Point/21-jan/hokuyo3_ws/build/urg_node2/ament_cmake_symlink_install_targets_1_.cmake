@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zalv/hokuyo3_ws/build/urg_node2/liburg_node2.so" "/home/zalv/hokuyo3_ws/build/urg_node2/liburg_c.so" "TARGETS" "urg_node2" "urg_c" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/urg_node2")

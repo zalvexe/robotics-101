@@ -1,0 +1,43 @@
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:100:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ does not name a type
+  100 |     [01;31m[Kserial[m[K::Serial serial_; // Serial connection
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:[m[K In constructor ‘[01m[KWS20PCDDriver::WS20PCDDriver()[m[K’:
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+   20 |             [01;31m[Kserial_[m[K.setPort("/dev/ttyUSB0");
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ has not been declared
+   22 |             [01;31m[Kserial[m[K::Timeout to = serial::Timeout::simpleTimeout(1000);
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:23:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kto[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   23 |             serial_.setTimeout([01;31m[Kto[m[K);
+      |                                [01;31m[K^~[m[K
+      |                                [32m[Ktm[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ does not name a type
+   26 |         catch ([01;31m[Kserial[m[K::IOException& e)
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:35:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   26 |         catch (serial::IOException[01;31m[K&[m[K e)
+      |                                   [01;31m[K^[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   26 |         catch [01;36m[K([m[Kserial::IOException& e)
+      |               [01;36m[K^[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+   26 |         catch (serial::IOException[01;31m[K&[m[K e)
+      |                                   [01;31m[K^[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:26:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+   26 |         catch (serial::IOException& [01;31m[Ke[m[K)
+      |                                     [01;31m[K^[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+   32 |         if ([01;31m[Kserial_[m[K.isOpen())
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:[m[K In member function ‘[01m[Kvoid WS20PCDDriver::publishScan()[m[K’:
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:46:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+   46 |         if (![01;31m[Kserial_[m[K.isOpen())
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+   54 |         [01;31m[Kserial_[m[K.readline(data);
+      |         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wr_lidar.dir/build.make:76: CMakeFiles/wr_lidar.dir/src/wr_lidar.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/wr_lidar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

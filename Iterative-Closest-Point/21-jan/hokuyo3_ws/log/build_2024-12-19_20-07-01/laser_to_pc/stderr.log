@@ -1,0 +1,7 @@
+[01m[K/home/zalv/hokuyo3_ws/src/laser_to_pc/src/wr_lidar.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+    6 | #include [01;31m[K<serial/serial.h>[m[K // For serial communication
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/wr_lidar.dir/build.make:76: CMakeFiles/wr_lidar.dir/src/wr_lidar.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/wr_lidar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

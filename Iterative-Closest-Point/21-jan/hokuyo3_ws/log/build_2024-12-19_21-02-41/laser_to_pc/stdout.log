@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/wr_lidar.dir/src/wr_lidar.cpp.o[0m
+[ 50%] Built target fixed_map_rviz
+[ 83%] Built target laser_to_pointcloud

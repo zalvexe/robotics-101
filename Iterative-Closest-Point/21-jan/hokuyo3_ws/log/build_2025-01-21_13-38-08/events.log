@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (-) JobUnselected: {'identifier': 'icp_node'}
+[0.000493] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.000560] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.000609] (-) JobUnselected: {'identifier': 'pclomp'}
+[0.000663] (-) JobUnselected: {'identifier': 'ros2_cppserial'}
+[0.000682] (-) JobUnselected: {'identifier': 'ros2_serial_interfaces'}
+[0.000709] (-) JobUnselected: {'identifier': 'serial'}
+[0.000768] (-) JobUnselected: {'identifier': 'urg_node2'}
+[0.000790] (laser_to_pc) JobQueued: {'identifier': 'laser_to_pc', 'dependencies': OrderedDict()}
+[0.000811] (laser_to_pc) JobStarted: {'identifier': 'laser_to_pc'}
+[0.012687] (laser_to_pc) JobProgress: {'identifier': 'laser_to_pc', 'progress': 'cmake'}
+[0.013238] (laser_to_pc) JobProgress: {'identifier': 'laser_to_pc', 'progress': 'build'}
+[0.013775] (laser_to_pc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zalv/hokuyo3_ws/build/laser_to_pc', '--', '-j22', '-l22'], 'cwd': '/home/zalv/hokuyo3_ws/build/laser_to_pc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'zalv'), ('LC_TIME', 'id_ID.UTF-8'), ('GIO_MODULE_DIR', '/home/zalv/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GIT_ASKPASS', '/snap/code/175/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2/lib:/home/zalv/hokuyo3_ws/install/serial/lib:/home/zalv/hokuyo3_ws/install/ros2_serial_interfaces/lib:/home/zalv/hokuyo3_ws/install/pclomp/lib:/home/zalv/hokuyo3_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib:'), ('LESS', '-R'), ('HOME', '/home/zalv'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/zalv/hokuyo3_ws'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/175/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/zalv/.oh-my-zsh'), ('GTK_IM_MODULE_FILE', '/home/zalv/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/175/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2370'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/175/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7007'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install'), ('LOGNAME', 'zalv'), ('JOURNAL_STREAM', '8:280'), ('_', '/usr/bin/colcon'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', ''), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/home/zalv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USER_ZDOTDIR', '/home/zalv'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/zalv/hokuyo3_ws/install/pclomp/lib/x86_64-linux-gnu/pkgconfig:/home/zalv/hokuyo3_ws/install/pclomp/lib/pkgconfig'), ('USERNAME', 'zalv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zalv:@/tmp/.ICE-unix/2543,unix/zalv:/tmp/.ICE-unix/2543'), ('GTK_EXE_PREFIX', '/snap/code/175/usr'), ('INVOCATION_ID', '6729cef7d95f417cbd9079b1485f2d4c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/175/usr/lib/locale'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('VSCODE_INJECTION', '1'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/zalv/snap/code/175/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4K88Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cfb34554f9.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/zalv/snap/code/175/.local/share/glib-2.0/schemas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/serial:/home/zalv/hokuyo3_ws/install/ros2_serial_interfaces:/home/zalv/hokuyo3_ws/install/lslidar_driver:/home/zalv/hokuyo3_ws/install/lslidar_msgs:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:66fb1d05-2fd0-467f-bf9d-fec7780fcd7b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zalv/hokuyo3_ws/build/laser_to_pc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/home/zalv/snap/code/175/.local/share:/home/zalv/snap/code/175:/snap/code/175/usr/share:/home/zalv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZDOTDIR', '/home/zalv'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/zalv/hokuyo3_ws/install/ros2_serial_interfaces/local/lib/python3.10/dist-packages:/home/zalv/hokuyo3_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/serial:/home/zalv/hokuyo3_ws/install/ros2_serial_interfaces:/home/zalv/hokuyo3_ws/install/pclomp:/home/zalv/hokuyo3_ws/install/lslidar_driver:/home/zalv/hokuyo3_ws/install/lslidar_msgs:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble')]), 'shell': False}
+[0.064090] (laser_to_pc) StdoutLine: {'line': b'[ 33%] Built target fixed_map_rviz\n'}
+[0.065502] (laser_to_pc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target laser_to_pointcloud\x1b[0m\n'}
+[0.077337] (laser_to_pc) StdoutLine: {'line': b'[ 66%] Built target wr_lidar_eth\n'}
+[0.092872] (laser_to_pc) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o\x1b[0m\n'}
+[0.099755] (-) TimerEvent: {}
+[0.200061] (-) TimerEvent: {}
+[0.300361] (-) TimerEvent: {}
+[0.400673] (-) TimerEvent: {}
+[0.501004] (-) TimerEvent: {}
+[0.601334] (-) TimerEvent: {}
+[0.701766] (-) TimerEvent: {}
+[0.802208] (-) TimerEvent: {}
+[0.902567] (-) TimerEvent: {}
+[1.002955] (-) TimerEvent: {}
+[1.103316] (-) TimerEvent: {}
+[1.203635] (-) TimerEvent: {}
+[1.304262] (-) TimerEvent: {}
+[1.404781] (-) TimerEvent: {}
+[1.505345] (-) TimerEvent: {}
+[1.606216] (-) TimerEvent: {}
+[1.706669] (-) TimerEvent: {}
+[1.807013] (-) TimerEvent: {}
+[1.907335] (-) TimerEvent: {}
+[2.007662] (-) TimerEvent: {}
+[2.108021] (-) TimerEvent: {}
+[2.208366] (-) TimerEvent: {}
+[2.308729] (-) TimerEvent: {}
+[2.409060] (-) TimerEvent: {}
+[2.509398] (-) TimerEvent: {}
+[2.609727] (-) TimerEvent: {}
+[2.710067] (-) TimerEvent: {}
+[2.810400] (-) TimerEvent: {}
+[2.910953] (-) TimerEvent: {}
+[3.011441] (-) TimerEvent: {}
+[3.111921] (-) TimerEvent: {}
+[3.212457] (-) TimerEvent: {}
+[3.313008] (-) TimerEvent: {}
+[3.413565] (-) TimerEvent: {}
+[3.513992] (-) TimerEvent: {}
+[3.614388] (-) TimerEvent: {}
+[3.714952] (-) TimerEvent: {}
+[3.815395] (-) TimerEvent: {}
+[3.915839] (-) TimerEvent: {}
+[4.016579] (-) TimerEvent: {}
+[4.117211] (-) TimerEvent: {}
+[4.217717] (-) TimerEvent: {}
+[4.318106] (-) TimerEvent: {}
+[4.418461] (-) TimerEvent: {}
+[4.518837] (-) TimerEvent: {}
+[4.619196] (-) TimerEvent: {}
+[4.719523] (-) TimerEvent: {}
+[4.819854] (-) TimerEvent: {}
+[4.920195] (-) TimerEvent: {}
+[5.020621] (-) TimerEvent: {}
+[5.121141] (-) TimerEvent: {}
+[5.221479] (-) TimerEvent: {}
+[5.321802] (-) TimerEvent: {}
+[5.422155] (-) TimerEvent: {}
+[5.522512] (-) TimerEvent: {}
+[5.622870] (-) TimerEvent: {}
+[5.723221] (-) TimerEvent: {}
+[5.823575] (-) TimerEvent: {}
+[5.924105] (-) TimerEvent: {}
+[6.024454] (-) TimerEvent: {}
+[6.124817] (-) TimerEvent: {}
+[6.225268] (-) TimerEvent: {}
+[6.325608] (-) TimerEvent: {}
+[6.425948] (-) TimerEvent: {}
+[6.526305] (-) TimerEvent: {}
+[6.626665] (-) TimerEvent: {}
+[6.727042] (-) TimerEvent: {}
+[6.827402] (-) TimerEvent: {}
+[6.927754] (-) TimerEvent: {}
+[7.028128] (-) TimerEvent: {}
+[7.128479] (-) TimerEvent: {}
+[7.228832] (-) TimerEvent: {}
+[7.329204] (-) TimerEvent: {}
+[7.429557] (-) TimerEvent: {}
+[7.529926] (-) TimerEvent: {}
+[7.630389] (-) TimerEvent: {}
+[7.730747] (-) TimerEvent: {}
+[7.831126] (-) TimerEvent: {}
+[7.931533] (-) TimerEvent: {}
+[8.031885] (-) TimerEvent: {}
+[8.132220] (-) TimerEvent: {}
+[8.232555] (-) TimerEvent: {}
+[8.332904] (-) TimerEvent: {}
+[8.433235] (-) TimerEvent: {}
+[8.533554] (-) TimerEvent: {}
+[8.633902] (-) TimerEvent: {}
+[8.734236] (-) TimerEvent: {}
+[8.834594] (-) TimerEvent: {}
+[8.934971] (-) TimerEvent: {}
+[9.035490] (-) TimerEvent: {}
+[9.136022] (-) TimerEvent: {}
+[9.236510] (-) TimerEvent: {}
+[9.336976] (-) TimerEvent: {}
+[9.437496] (-) TimerEvent: {}
+[9.538013] (-) TimerEvent: {}
+[9.638558] (-) TimerEvent: {}
+[9.739074] (-) TimerEvent: {}
+[9.839572] (-) TimerEvent: {}
+[9.940096] (-) TimerEvent: {}
+[10.040603] (-) TimerEvent: {}
+[10.141138] (-) TimerEvent: {}
+[10.241646] (-) TimerEvent: {}
+[10.342170] (-) TimerEvent: {}
+[10.442679] (-) TimerEvent: {}
+[10.543231] (-) TimerEvent: {}
+[10.643732] (-) TimerEvent: {}
+[10.744253] (-) TimerEvent: {}
+[10.844751] (-) TimerEvent: {}
+[10.945283] (-) TimerEvent: {}
+[11.045804] (-) TimerEvent: {}
+[11.146343] (-) TimerEvent: {}
+[11.246917] (-) TimerEvent: {}
+[11.347428] (-) TimerEvent: {}
+[11.447961] (-) TimerEvent: {}
+[11.548458] (-) TimerEvent: {}
+[11.555950] (laser_to_pc) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laser_to_pointcloud\x1b[0m\n'}
+[11.648612] (-) TimerEvent: {}
+[11.749154] (-) TimerEvent: {}
+[11.849694] (-) TimerEvent: {}
+[11.950575] (-) TimerEvent: {}
+[12.051125] (-) TimerEvent: {}
+[12.151647] (-) TimerEvent: {}
+[12.248408] (laser_to_pc) StdoutLine: {'line': b'[100%] Built target laser_to_pointcloud\n'}
+[12.251769] (-) TimerEvent: {}
+[12.263272] (laser_to_pc) CommandEnded: {'returncode': 0}
+[12.295599] (laser_to_pc) JobProgress: {'identifier': 'laser_to_pc', 'progress': 'install'}
+[12.304256] (laser_to_pc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zalv/hokuyo3_ws/build/laser_to_pc'], 'cwd': '/home/zalv/hokuyo3_ws/build/laser_to_pc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'zalv'), ('LC_TIME', 'id_ID.UTF-8'), ('GIO_MODULE_DIR', '/home/zalv/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GIT_ASKPASS', '/snap/code/175/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2/lib:/home/zalv/hokuyo3_ws/install/serial/lib:/home/zalv/hokuyo3_ws/install/ros2_serial_interfaces/lib:/home/zalv/hokuyo3_ws/install/pclomp/lib:/home/zalv/hokuyo3_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib:'), ('LESS', '-R'), ('HOME', '/home/zalv'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/zalv/hokuyo3_ws'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/175/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/zalv/.oh-my-zsh'), ('GTK_IM_MODULE_FILE', '/home/zalv/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/175/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2370'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/175/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7007'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install'), ('LOGNAME', 'zalv'), ('JOURNAL_STREAM', '8:280'), ('_', '/usr/bin/colcon'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', ''), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/home/zalv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USER_ZDOTDIR', '/home/zalv'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/zalv/hokuyo3_ws/install/pclomp/lib/x86_64-linux-gnu/pkgconfig:/home/zalv/hokuyo3_ws/install/pclomp/lib/pkgconfig'), ('USERNAME', 'zalv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zalv:@/tmp/.ICE-unix/2543,unix/zalv:/tmp/.ICE-unix/2543'), ('GTK_EXE_PREFIX', '/snap/code/175/usr'), ('INVOCATION_ID', '6729cef7d95f417cbd9079b1485f2d4c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/175/usr/lib/locale'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('VSCODE_INJECTION', '1'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/zalv/snap/code/175/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4K88Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cfb34554f9.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/zalv/snap/code/175/.local/share/glib-2.0/schemas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/serial:/home/zalv/hokuyo3_ws/install/ros2_serial_interfaces:/home/zalv/hokuyo3_ws/install/lslidar_driver:/home/zalv/hokuyo3_ws/install/lslidar_msgs:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:66fb1d05-2fd0-467f-bf9d-fec7780fcd7b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zalv/hokuyo3_ws/build/laser_to_pc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/home/zalv/snap/code/175/.local/share:/home/zalv/snap/code/175:/snap/code/175/usr/share:/home/zalv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZDOTDIR', '/home/zalv'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/zalv/hokuyo3_ws/install/ros2_serial_interfaces/local/lib/python3.10/dist-packages:/home/zalv/hokuyo3_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zalv/hokuyo3_ws/install/urg_node2:/home/zalv/hokuyo3_ws/install/serial:/home/zalv/hokuyo3_ws/install/ros2_serial_interfaces:/home/zalv/hokuyo3_ws/install/pclomp:/home/zalv/hokuyo3_ws/install/lslidar_driver:/home/zalv/hokuyo3_ws/install/lslidar_msgs:/home/zalv/hokuyo3_ws/install/laser_to_pc:/home/zalv/hokuyo3_ws/install/icp_node:/opt/ros/humble')]), 'shell': False}
+[12.310862] (laser_to_pc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.311320] (laser_to_pc) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.311585] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/lib/laser_to_pc/laser_to_pointcloud\n'}
+[12.311792] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/lib/laser_to_pc/fixed_map_rviz\n'}
+[12.311998] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/lib/laser_to_pc/wr_lidar_eth\n'}
+[12.312151] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/package_run_dependencies/laser_to_pc\n'}
+[12.312280] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/parent_prefix_path/laser_to_pc\n'}
+[12.312403] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/ament_prefix_path.sh\n'}
+[12.312514] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/ament_prefix_path.dsv\n'}
+[12.312627] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/path.sh\n'}
+[12.312733] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/environment/path.dsv\n'}
+[12.312836] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.bash\n'}
+[12.313005] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.sh\n'}
+[12.313385] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.zsh\n'}
+[12.313458] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/local_setup.dsv\n'}
+[12.313528] (laser_to_pc) StdoutLine: {'line': b'-- Symlinking: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.dsv\n'}
+[12.321216] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/ament_index/resource_index/packages/laser_to_pc\n'}
+[12.321343] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/cmake/laser_to_pcConfig.cmake\n'}
+[12.321392] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/cmake/laser_to_pcConfig-version.cmake\n'}
+[12.321442] (laser_to_pc) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zalv/hokuyo3_ws/install/laser_to_pc/share/laser_to_pc/package.xml\n'}
+[12.323136] (laser_to_pc) CommandEnded: {'returncode': 0}
+[12.351853] (-) TimerEvent: {}
+[12.370003] (laser_to_pc) JobEnded: {'identifier': 'laser_to_pc', 'rc': 0}
+[12.370503] (-) EventReactorShutdown: {}

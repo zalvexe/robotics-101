@@ -1,0 +1,1 @@
+/home/zalv/hokuyo3_ws/build/ros2_serial_interfaces/ament_cmake_environment_hooks/pythonpath.sh
