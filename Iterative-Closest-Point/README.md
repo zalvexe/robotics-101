@@ -29,6 +29,10 @@ Implemented program in Lslidar N10_P. Some problem faced (and solved):
 - Issue: Mismatched LiDAR driver, resulting in incorrect scan results.  
   - **Solution**: Updated the YAML parameters from `N10` to `N10_P`.
 
+### Summary on 21 Jan 2025:
+- ```laser_to_pointcloud.cpp```: Converts laser scan data to a point cloud and publishes it.    
+- ```fixed_map_rviz.cpp```: Reads a fixed map from a file, converts it to a LaserScan message, and publishes it.    
+- ```icp_publish.cpp```: Subscribes to both the current LiDAR scan data and the fixed map, performs ICP alignment, and publishes the aligned point cloud.    
 > Notes: Research on progress.. :]   
 
 
