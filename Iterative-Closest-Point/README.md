@@ -11,6 +11,7 @@ ICP, or Iterative Closest Point, is an algorithm used in computer vision and rob
 ![image](https://github.com/user-attachments/assets/f52bd3c9-83e7-41ef-8eb4-3ccb1c89af84)
 
 Lidar used: Hokuyo, lslidar     
+**urg node2: https://github.com/Hokuyo-aut/urg_node2.git**
 
 ## PROGRESS:
 [✅] Accessing Lidar    
@@ -19,7 +20,8 @@ Lidar used: Hokuyo, lslidar
 [✅] Getting all lidar angle data (360 deg)  
 [✅] Publishing fixed map to rviz  
 [✅] Implementing ICP calculation   
-[❌] Calculating R and T data and publishing them   
+[✅] Calculating R and T data and publishing them   
+[✅] Testing in hokuyo lidar   
 [❌] Complementary fusion with Odometry   
 ## ---------------------------------------------- '_' ----------------------------------------------------
 ### Notes on 7 Dec 24:  
@@ -33,6 +35,13 @@ Implemented program in Lslidar N10_P. Some problem faced (and solved):
 - ```laser_to_pointcloud.cpp```: Converts laser scan data to a point cloud and publishes it.    
 - ```fixed_map_rviz.cpp```: Reads a fixed map from a file, converts it to a LaserScan message, and publishes it.    
 - ```icp_publish.cpp```: Subscribes to both the current LiDAR scan data and the fixed map, performs ICP alignment, and publishes the aligned point cloud.    
-> Notes: Research on progress.. :]   
 
 
+### Summary on 4 Feb 2025
+- icp converged, rviz:  
+  ![Screenshot from 2025-02-03 14-32-34](https://github.com/user-attachments/assets/bbac5646-536e-45eb-8464-e61868155efc)
+> red: fixed map   
+> white: current lidar scan    
+> green: icp pointcloud    
+
+> Note: Research on progress.. :]   
