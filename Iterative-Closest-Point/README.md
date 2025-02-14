@@ -38,7 +38,10 @@ Implemented program in Lslidar N10_P. Some problem faced (and solved):
 
 
 ### Summary on 4 Feb 2025
-- icp converged, rviz:  
+- icp converged, rviz:
+
+https://github.com/user-attachments/assets/0fc575ad-c8ee-4c1c-ab90-5dc0eab581e5
+
   ![Screenshot from 2025-02-03 14-32-34](https://github.com/user-attachments/assets/bbac5646-536e-45eb-8464-e61868155efc)
 > red: fixed map   
 > white: current lidar scan    
