@@ -22,7 +22,10 @@ Lidar used: Hokuyo, lslidar
 [✅] Implementing ICP calculation   
 [✅] Calculating R and T data and publishing them   
 [✅] Testing in hokuyo lidar   
-[❌] Complementary fusion with Odometry   
+[✅] Quarternion localization (x,y,z,w)      
+[✅] Euler localization (x,y,yaw)     
+[✅] Complementary fusion with Odometry   
+[  ] Tryin out irl robot  
 ## ---------------------------------------------- '_' ----------------------------------------------------
 ### Notes on 7 Dec 24:  
 Implemented program in Lslidar N10_P. Some problem faced (and solved):     
@@ -46,5 +49,13 @@ https://github.com/user-attachments/assets/0fc575ad-c8ee-4c1c-ab90-5dc0eab581e5
 > red: fixed map   
 > white: current lidar scan    
 > green: icp pointcloud    
+
+### Summary on 20 feb 2025
+- Quarternion pose:
+![Screenshot from 2025-02-18 15-13-18](https://github.com/user-attachments/assets/cf4909f4-cec2-4544-963c-d4a324864a36)
+- Turns quarternion into euler and matched it with irl robot coordinate
+- Complementary filter (fuse with odom pose)  
+![image](https://github.com/user-attachments/assets/ef026430-f104-4749-8e68-f400ec60e03c)
+
 
 > Note: Research on progress.. :]   
