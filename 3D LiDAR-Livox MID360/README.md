@@ -23,7 +23,7 @@
 ## How to Access
 1. Turn on lidar
    Supply: 12V, 0.45 A
-2. Check its ethernet ip with ```ifconfig```
+2. Check its ethernet interface with ```ifconfig```
    <img src="https://github.com/user-attachments/assets/37026e04-8c4a-4851-83a7-0db9d751cb24" width="480">
 3. To find the ip, you can use Wireshark or nmap
    
