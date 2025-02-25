@@ -2,7 +2,7 @@
 
 ## Important Links
 1. Read datasheet (for power supply, ethernet, Livox Viewer 2)   
-   https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/Livox/Livox_Mid-360_User_Manual_EN.pdf   
+   https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/Livox/Livox_Mid-360_User_Manual_EN.pdf 
 2. To access more of this lidar, follow this (Like really, just follow all this step)   
    https://github.com/Livox-SDK/Livox-SDK2/blob/master/README.md
 3. Configuring with ros 2    
@@ -22,8 +22,11 @@
 
 ## How to Access
 1. Turn on lidar
+   Supply: 12V, 0.45 A
 2. Check its ethernet ip with ```ifconfig```
+   <img src="https://github.com/user-attachments/assets/37026e04-8c4a-4851-83a7-0db9d751cb24" width="480">
 3. To configure the static ip, you can use Wireshark or nmap
+   
 4. Based on datasheet, we need to make our pc's ip static in ```192.168.1.50``` BUT in my case, the wireshark capture an ip of ```192.168.2.50``` so i the subnet of 1 into 2
 5. For lidar's ip, check the serial number (near a QR code), ex:  ```47MDMXXXX273```, the last 2 digits you can add to ```192.168.1.1XX```, but again wireshark showed that the subnet is 2, so my lidar's ip would be
    ```192.168.2.173```
