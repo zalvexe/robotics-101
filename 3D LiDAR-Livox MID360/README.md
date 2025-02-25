@@ -1,11 +1,11 @@
 # Personal Documentation of Livox MID360
 
 ## Important Links
-1. Read datasheet (for power supply, ethernet, Livox Viewer 2)
+1. Read datasheet (for power supply, ethernet, Livox Viewer 2)   
    https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/Livox/Livox_Mid-360_User_Manual_EN.pdf   
-2. To access more of this lidar, follow this (Like really, just follow all this step)
+2. To access more of this lidar, follow this (Like really, just follow all this step)   
    https://github.com/Livox-SDK/Livox-SDK2/blob/master/README.md
-3. Configuring with ros 2
+3. Configuring with ros 2    
    https://github.com/Livox-SDK/livox_ros_driver2
       > Note: you'll get somekind of stderr when building the pkg but its not a necessary error, just ignore it
    ```
