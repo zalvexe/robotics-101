@@ -27,7 +27,7 @@
    <img src="https://github.com/user-attachments/assets/37026e04-8c4a-4851-83a7-0db9d751cb24" width="480">
 3. To find the ip, you can use Wireshark or nmap
    
-4. Based on datasheet, we need to make our pc's ip static in ```192.168.1.50``` BUT in my case, the wireshark capture an ip of ```192.168.2.50``` so i the subnet of 1 into 2
+4. Based on datasheet, we need to make our pc's ip static in ```192.168.1.50``` BUT in my case, the wireshark capture an ip of ```192.168.2.50``` so i changed the subnet from 1 into 2
 5. For lidar's ip, check the serial number (near a QR code), ex:  ```47MDMXXXX273```, the last 2 digits you can add to ```192.168.1.1XX```, but again wireshark showed that the subnet is 2, so my lidar's ip would be
    ```192.168.2.173```
 6. To build the ROS pkg, you need to change few config:
