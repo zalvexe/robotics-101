@@ -38,7 +38,8 @@ then to make sure you can access the lidar, try pinging it
    ping 192.168.2.173
    ```
 6. To build the ROS pkg, you need to change few config:
-   - MID360_config.json
+   - ```MID360_config.json```
+     
      ```json
      {
       "lidar_summary_info" : {
@@ -69,11 +70,13 @@ then to make sure you can access the lidar, try pinging it
         {
           "ip" : "192.168.2.173",
       ```
-- msg_MID360_launch.py
+- ```msg_MID360_launch.py```
+  
     ```py
     cmdline_bd_code = '47MDM6E0020273'
     ```
-- rviz_MID360_launch.py
+- ```rviz_MID360_launch.py```
+  
     ```py
     cmdline_bd_code = '47MDM6E0020273'
     ```
