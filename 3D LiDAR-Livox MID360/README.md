@@ -26,10 +26,17 @@
 2. Check its ethernet interface with ```ifconfig```
    <img src="https://github.com/user-attachments/assets/37026e04-8c4a-4851-83a7-0db9d751cb24" width="480">
 3. To find the ip, you can use Wireshark or nmap
-   
-4. Based on datasheet, we need to make our pc's ip static in ```192.168.1.50``` BUT in my case, the wireshark capture an ip of ```192.168.2.50``` so i changed the subnet from 1 into 2
+   <img src="https://github.com/user-attachments/assets/84d622ca-859b-4503-b2ff-97154aea3c7d" width="480">
+4. Based on datasheet, we need to make our pc's ip static in ```192.168.1.50``` BUT in my case, the wireshark capture an ip of ```192.168.2.50``` so i changed the subnet from 1 into 2. For this, i used this command
+   ```
+   sudo ip addr add 192.168.2.100/24 dev enx68e43b30881a
+   ```
 5. For lidar's ip, check the serial number (near a QR code), ex:  ```47MDMXXXX273```, the last 2 digits you can add to ```192.168.1.1XX```, but again wireshark showed that the subnet is 2, so my lidar's ip would be
    ```192.168.2.173```
+then to make sure you can access the lidar, try pinging it   
+   ```
+   ping 192.168.2.173
+   ```
 6. To build the ROS pkg, you need to change few config:
    - MID360_config.json
      ```json
@@ -74,3 +81,11 @@
    - cd to workspace
    - ```ros2 launch livox_ros_driver2 msg_MID360_launch.py```
    - ```ros2 launch livox_ros_driver2 rviz_MID360_launch.py```
+  
+### Screenshots
+- Livox Viewer 2    
+  <img src="https://github.com/user-attachments/assets/316525d1-12c3-4afb-9bb5-ef0cd835a185" width="480">    
+- Rviz2    
+  <img src="https://github.com/user-attachments/assets/171fed84-df33-4b34-9bcd-4e10376d5b2c" width="480">
+
+
