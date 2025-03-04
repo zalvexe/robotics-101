@@ -23,11 +23,11 @@
 ## How to Access
 1. Turn on lidar
    Supply: 12V, 0.45 A
-2. Check its ethernet interface with ```ifconfig```
-   <img src="https://github.com/user-attachments/assets/37026e04-8c4a-4851-83a7-0db9d751cb24" width="480">
-3. To find the ip, you can use Wireshark or nmap
-   <img src="https://github.com/user-attachments/assets/84d622ca-859b-4503-b2ff-97154aea3c7d" width="480">
-4. Based on datasheet, we need to make our pc's ip static in ```192.168.1.50``` BUT in my case, the wireshark capture an ip of ```192.168.2.50``` so i changed the subnet from 1 into 2. For this, i used this command
+2. Check its ethernet interface with ```ifconfig```    
+   <img src="https://github.com/user-attachments/assets/37026e04-8c4a-4851-83a7-0db9d751cb24" width="480">   
+3. To find the ip, you can use Wireshark or nmap    
+   <img src="https://github.com/user-attachments/assets/84d622ca-859b-4503-b2ff-97154aea3c7d" width="480">   
+4. Based on datasheet, we need to make our pc's ip static in ```192.168.1.50``` BUT in my case, the wireshark capture an ip of ```192.168.2.50``` so i changed the subnet from 1 into 2. For this, i used this command    
    ```
    sudo ip addr add 192.168.2.100/24 dev enx68e43b30881a
    ```
