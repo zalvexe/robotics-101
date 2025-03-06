@@ -81,7 +81,9 @@ then to make sure you can access the lidar, try pinging it
     cmdline_bd_code = '47MDM6E0020273'
     ```
 7. Launch ROS:
-   - cd to workspace
+   - cd to livox workspace (ws_livox)    
+   - source while on that workspace   
+     ```source ./install/setup.zsh```   
    - ```ros2 launch livox_ros_driver2 msg_MID360_launch.py```
    - ```ros2 launch livox_ros_driver2 rviz_MID360_launch.py```
   
