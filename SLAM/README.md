@@ -39,3 +39,5 @@ it'll be saved in ws/test.pcd
 ```
 pcl_viewer test.pcd
 ```
+
+> curhat section: i was about to use LIO-SAM package but failed due to ```gtsam``` build failed. Then this fast-lio package seems promising and yep it ran smoothly :)
