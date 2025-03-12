@@ -25,7 +25,7 @@ Lidar used: Hokuyo, lslidar
 [✅] Quarternion localization (x,y,z,w)      
 [✅] Euler localization (x,y,yaw)     
 [✅] Complementary fusion with Odometry   
-[  ] Tryin out irl robot  
+[✅] Tryin out irl robot  
 ## ---------------------------------------------- '_' ----------------------------------------------------
 ### Notes on 7 Dec 24:  
 Implemented program in Lslidar N10_P. Some problem faced (and solved):     
