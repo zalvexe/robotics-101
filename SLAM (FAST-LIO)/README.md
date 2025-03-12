@@ -11,15 +11,19 @@ SLAM (Simultaneous Localization And Mapping) is a computational technique that e
 
 ### How to?
 1. Just follow every instruction on fast-lio github, its pretty straightforward
-2. launch msg from livox driver
+2. After building the livox driver in different workspace, dont forget to add its sourcing (/install/setup.zsh) in ```.zshrc``` by
+```
+nano .zshrc
+```
+3. launch msg from livox driver
 ```
 ros2 launch livox_ros_driver2 msg_MID360_launch.py
 ```
-3. launch fast-lio
+4. launch fast-lio
 ```
 ros2 launch fast_lio mapping.launch.py config_file:=mid360.yaml
 ```
-4. Put the lidar in a static position and just move the robot base normally
+5. Put the lidar in a static position and just move the robot base normally
 > ITS robotic area mapping (2x speed)
 
 
@@ -35,7 +39,7 @@ ros2 service call /map_save std_srvs/srv/Trigger
 ```
 it'll be saved in ws/test.pcd   
 
-6. open pcd file with pcl_viewer
+7. open pcd file with pcl_viewer
 ```
 pcl_viewer test.pcd
 ```
