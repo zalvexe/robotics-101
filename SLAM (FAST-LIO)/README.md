@@ -1,5 +1,6 @@
 # Personal Documentation of SLAM (FAST-LIO)
-SLAM (Simultaneous Localization And Mapping) is a computational technique that enables robots or autonomous devices to create a map of an unknown environment while simultaneously tracking their own position within that environment.    
+SLAM (Simultaneous Localization And Mapping) is a computational technique that enables robots or autonomous devices to create a map of an unknown environment while simultaneously tracking their own position within that environment.   
+Fast LIO-SLAM (Fast LiDAR-Inertial Odometry and SLAM) is a real-time, lightweight SLAM algorithm that fuses LiDAR and IMU data for accurate and fast localization and mapping, more of it you can find it below (from source).
 
 ### Lidar used: Livox MID-360   
 
