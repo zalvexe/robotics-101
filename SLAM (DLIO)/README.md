@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/b18fa7cc-39c7-4905-ad1a-c79553003aab
 <img src="https://github.com/user-attachments/assets/7541b98d-8ea4-47c7-81c0-f6d235705db8" width="680">
 
 ## Summary
-- The longer the lidar stays, the mapping scan result will be clearer
+- The longer the lidar stays in one point, the mapping scan result around that point will be clearer
 - Localization and IMU were reallllyy accurate
 - Comparing with FAST-LIO, this DLIO gives more accurate and more detailed mapping result
 - Still need to find out how to save the scanned map, cuz the service call didnt work
