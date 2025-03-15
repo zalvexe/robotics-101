@@ -27,7 +27,19 @@ yes, change the pointcloud topic and imu topic based on what the lidar publishes
 What cool about this package is how it'll callibrate the imu with lidar for the first 3 seconds before it starts the SLAM. Stuff that will show up in terminal if you're succeed is   
 <img src="https://github.com/user-attachments/assets/42f015e5-31c0-4d00-9c23-719014fa8bd7" width="680">
 
-Here is the mapping result of ITS Robotics  
+**Here is the mapping result of ITS Robotics (speed 22x)**    
+
+
+https://github.com/user-attachments/assets/b18fa7cc-39c7-4905-ad1a-c79553003aab
+
+
+
 <img src="https://github.com/user-attachments/assets/7541b98d-8ea4-47c7-81c0-f6d235705db8" width="680">
+
+## Summary
+- The longer the lidar stays, the mapping scan result will be clearer
+- Localization and IMU were reallllyy accurate
+- Comparing with FAST-LIO, this DLIO gives more accurate and more detailed mapping result
+- Still need to find out how to save the scanned map, cuz the service call didnt work
 
 
