@@ -36,10 +36,15 @@ https://github.com/user-attachments/assets/b18fa7cc-39c7-4905-ad1a-c79553003aab
 
 <img src="https://github.com/user-attachments/assets/7541b98d-8ea4-47c7-81c0-f6d235705db8" width="680">
 
+3. How to save:
+- Make a new dir based on your save_path, then
+```
+ros2 service call /save_pcd direct_lidar_inertial_odometry/srv/SavePCD "{'leaf_size': 0.2, 'save_path': '~/map'}"
+```
+
 ## Summary
 - The longer the lidar stays in one point, the mapping scan result around that point will be clearer
 - Localization and IMU were reallllyy accurate
 - Comparing with FAST-LIO, this DLIO gives more accurate and more detailed mapping result
-- Still need to find out how to save the scanned map, cuz the service call didnt work
 
 
