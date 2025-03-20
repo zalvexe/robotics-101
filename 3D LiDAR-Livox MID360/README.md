@@ -80,7 +80,13 @@ then to make sure you can access the lidar, try pinging it
     ```py
     cmdline_bd_code = '47MDM6E0020273'
     ```
-7. Launch ROS:
+7. Make the lidar ip static in Wired Connection setting:
+   - Ip4 :
+     - Ip Address: 192.168.2.50
+     - Netmask: 255.255.255.0
+     - Gateaway: 192.168.2.50
+
+8. Launch ROS:
    - cd to livox workspace (ws_livox)    
    - source while on that workspace   
      ```source ./install/setup.zsh```   
