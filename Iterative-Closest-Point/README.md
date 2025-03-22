@@ -57,5 +57,31 @@ https://github.com/user-attachments/assets/0fc575ad-c8ee-4c1c-ab90-5dc0eab581e5
 - Complementary filter (fuse with odom pose)  
 ![image](https://github.com/user-attachments/assets/ef026430-f104-4749-8e68-f400ec60e03c)
 
+(+) PCL directory problem:
+```
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Findpcl.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "pcl", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "pcl" with any of
+  the following names:
+
+    pclConfig.cmake
+    pcl-config.cmake
+
+  Add the installation prefix of "pcl" to CMAKE_PREFIX_PATH or set "pcl_DIR"
+  to a directory containing one of the above files.  If "pcl" provides a
+  separate development package or SDK, be sure it has been installed.
+```
+can be solved by:   
+```cmake
+set(pcl_DIR "/opt/ros/humble/share/perception_pcl/cmake/")
+set(CMAKE_PREFIX_PATH "/opt/ros/humble/share/perception_pcl/cmake/" ${CMAKE_PREFIX_PATH}) #THE SOLVER
+find_package(PCL REQUIRED)
+find_package(pcl_conversions REQUIRED)
+find_package(PCL REQUIRED COMPONENTS <components>)
+find_package(pcl_ros REQUIRED)
+```
 
 > Note: Research on progress.. :]   
