@@ -3,7 +3,7 @@
 <img src="https://github.com/user-attachments/assets/aebf4a27-6693-4895-adb4-4bff1c66ef27" width="50%">
 
 ## important links
-SDK: https://github.com/IntelRealSense/librealsense
+SDK: https://github.com/IntelRealSense/librealsense   
 ROS 2: https://github.com/IntelRealSense/realsense-ros
 
 ## how to use it
@@ -11,6 +11,6 @@ to test out whether the driver is working, you can use ```realsense-viewer``` an
 
 ## ROS & Rviz
 
-
+> later lah ill add more
 
 
